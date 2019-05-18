@@ -21,3 +21,23 @@ img {
 	
 	width: 10%;
 }
+nav a{
+	text-decoration:none;
+	
+}
+nav li{
+	
+	margin: 10px auto;
+	background-color:#DBA901;
+	border: 1px solid #bbb;
+	box-shadow: 0 0 30px #777;
+	text-align: center;
+	list-style-type:none;
+	
+	
+}
+h3 {
+	Font-family:"Kalam","Lucida Grande", sans-serif;
+	text-align: center;
+	font-size: 2.25em;
+}
