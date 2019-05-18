@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Anton|Crimson+Text|Fira+Sans|Francois+One&display=swap');
+
+body {
+	background-color: rgb(147, 167, 125);
+}
+
+header {
+	margin: 10px auto;
+	background-color: rgb(231, 207, 69);
+	border: 1px solid #bbb;
+	box-shadow: 0 0 30px #777;
+	text-align: center;
+}
+
+header img, .headings {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px;
+}
+img {
+	
+	width: 10%;
+}
