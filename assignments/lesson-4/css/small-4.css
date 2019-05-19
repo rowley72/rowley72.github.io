@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Alegreya|Anton|Crimson+Text|Fira+Sans|Francois+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Boogaloo|Bree+Serif|Courgette|Dancing+Scrip|Francois+One|Kalam|PT+Sans+Narrow|Permanent+Marker|Rock+Salt|Signika+Negative|Vidaloka|Work+Sans|Yeon+Sung');
 
 #content {
 	background-color:rgb(147, 167, 125);
@@ -49,6 +49,7 @@ nav li{
 
 nav a:hover {
  background-color:green;
+ display: block;
  }
 
 h3 {
