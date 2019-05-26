@@ -8,25 +8,28 @@
  <meta name="description" content="The Weather Site Project">
  <title> Weather Forecast Site </title>
  <link  href="https://fonts.googleapis.com/css?family=Courgette%7cKalam" rel="stylesheet">
- <link rel="stylesheet" href="css/normalize.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+ <link rel="stylesheet" href="css/small-5.css">
+ <link rel="stylesheet" href="CSS/large-5.css">
 
 </head>
 
 <body>
         <div id="content">
-<header>
-       <img class="img" src="images/weathersunny.jpg" alt="The world logo">
-   <div id="headings">
-     <h1>Sunny or Not Forecast</h1>
+    <header>
+        <img class="img" src="images/weathersunny.jpg" alt="The world logo">
+        <div id="headings">
+            <h1>Sunny or Not Forecast</h1>
        <div class="motto">
        <h2> Acurate Weather Conditions</h2>
            </div>
         </div>
-</header>
+    </header>
        <nav>
-           <ul>
-               <li> <a href="#">HOME</a></li>
-               <li> <a href="#">PRESTON</a></li>
+           <ul class="navigation">
+               <li><a href="#">MENU</a></li>
+               <li> <a  href="#">HOME</a></li>
+               <li> <a class="active" href="#">PRESTON</a></li>
                <li> <a href="#">SODA SPRINGS</a></li>
                <li> <a href="#">FISH HAVENS</a></li>
                <li> <a href="#">STORM CENTER</a></li>
@@ -34,34 +37,93 @@
 
            </ul>
             </nav>
-       <main>
-                   <section>
-                   
-           <h3>Preston Idaho</h3>
-                           <div class="hero">
-                       <img  src="#" alt="hero image">
-                       <p> Weather Sumary</p>
+    <main>
+            <h3>Preston Idaho</h3>
+             <div class="firstcont">
+                    <div>
+                    <img class="img1" src="images/preston.jpg" alt="Town image">
+                    </div>
+            <section class="summary">
+                    <h4><span class="underline"> Weather Summary</span></h4>
+                       <p>Currently: Sunny </p>
+                       <p>High:      76 &#8457; </p>
+                       <p>Wind Chill: 78 &#8457; </p>
+                       <p> Humidity : 69%</p>
+                       <p>Wind Speed: 5 mph</p>
+
+            </section>
+                       
                    </div>
-                       </section>
+                   <section class="forecast">
+
+                    <h2 id="Foretitle"> 5 Day Forecast</h2>
+
+                    <table>
+                            <tr>
+                              <th>Monday</th>
+                              <th>Tuesday</th>
+                              <th>Wednesday</th>
+                              <th>Thursday</th>
+                              <th>Friday</th>
+
+                            </tr>
+                            <tr class="icon">
+                              <td><img src="images/20-512.png"><br>87 &#8457;</td>
+                              <td><img src="images/20-512.png"><br>80 &#8457;</td>
+                              <td><img src="images/20-512.png"><br>77 &#8457;</td>
+                              <td><img src="images/20-512.png"><br>84 &#8457;</td>
+                              <td><img src="images/20-512.png"><br>88 &#8457;</td>
+                            </tr>
+                            
+                          </table>
+                </section>
+                       
                    
-                    <article class="art">
-                           <h2> Article Title</h2>
-                           <h5> By autor</h5>
-                           <p>The Content of the article</p>
-                           <img src="#" alt="image of the article">
-                    </article>
+                    <article class="article" >
+                           <h2> Preston Endures Its Fame 10 Years Later</h2>
+                           <h5> BY MIKE MCKENNA</h5>
+                           <div class="clearfix" >
+                           <p class="town">
+                                <img  src="images/article-preston.jpg" alt="image of the article">  For the most part, there’s nothing particularly special about Preston, Idaho.
+                                But the pretty and predominantly Mormon town of 5,204 found its own 15 minutes 
+                                of fame thanks to a hit Hollywood movie; a fame that appears to be lingering.
+                                 Even though the locals may be a bit tired of it all, being home to “Napoleon Dynamite” 
+                                 will long be Preston’s biggest claim to fame.
+
+                            It’s been a decade since “Napoleon Dynamite” found surprising success at theaters nationwide.<br>
+                                 Written and directed by former Preston residents Jared Hess and his brother Jerusha,
+                                  the film’s quirky humor, memorable one-liners and odd but endearing characters instantly resonated with audiences. <br>
+                                  The movie has become a cult classic. Its 10th anniversary celebration last summer received loads of press and even included 
+                                  the unveiling of a Napoleon Dynamite statue, wearing a “Vote for Pedro” shirt, of course, in Los Angeles.  
+                            The film’s widespread popularity instantly made Preston a tourist destination. The town even held a “Napoleon Dynamite Festival” 
+                                for a few years before interest died down.
+                            </p>
+                            </div>
+                       </article>
                    
                    
-                   <section class="box">
-                       <h4> Contact Information Here</h4>
-                       <img src="images/radar.jpg" alt="map">
+                   <section class="section2">
+
+                            <div class="inform">
+                            <h4>The Weather Site</h4>
+                            <p><img src="images/address.png">30 N 1 st E<br>
+                            Preston, ID 83263</p>
+                            <p><img src="images/phone.png"> 999-9999-99</p>
+                             <p><img src="images/email-icon.jpg">SunnyOrnot@gmail.com</p>
+                        
+                            </div >
+                            <div class="right">
+                       
+                       <img class="img3"src="images/radar.jpg" alt="map">
+                      
+                
                    </section>
        </main>
        <footer>
            <div>
-       <p id="info">&copy; 2019 The Weather Town Project-Briggite Rowley | CIT 230</p>
-        </div>
-           <p> footer bar </p>
+            <p id="info">&copy; 2019 The Weather Town Project-Briggite Rowley | CIT 230</p>
+            </div>
+            <p> footer bar </p>
            
        </footer>
 
