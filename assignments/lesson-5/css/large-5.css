@@ -1,8 +1,32 @@
 /* Media Query for medium + screens */
 @media only screen and (min-width: 600px) {
-    .navigation li:first-child { display: none;	}
-      .navigation li { display: inline-block; margin-right: 1rem;}	
-      .navigation li a { color: yellow;}
+    .navigation {
+        list-style: none;
+        text-align: center;
+    }
+    .navigation li:first-child { 
+          display: block;
+        }
+    .navigation li { 
+          display: none;}
+    .navigation a {
+        display: block;	color: #fff;
+         padding: .75rem;
+        text-align: center;
+        text-decoration: none;}
+    .navigation a:hover {
+        color: #000;
+        background-color: #fff;
+        font-weight: 700;	}
+      
+      li a:hover:not(.active) {
+        background-color: green;
+      }
+      
+      .active {
+        background-color: rgb(104, 110, 106);
+      }
+     
 
       
 
