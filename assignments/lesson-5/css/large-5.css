@@ -27,7 +27,46 @@
         background-color: rgb(104, 110, 106);
       }
      
-
+      .forecast{
+        align-content: center;
+        display: none;
+    
+    }
+    #Foretitle{
+    
+    text-align: center;
+    }
+       img{
+           width:50%;}
+    
+    
+    table {
+        border-collapse: collapse;
+        width: 50%;
+        margin: auto;
+       
+       
+      }
+      
+        th {
+        border: 1px solid black;
+        padding: 0 5em 0 0.5em;
+        background-color: rgb(108, 158, 108);
+        padding: 10px;
+        
+        
+      }
+      
+      
+      td {border: 1px solid black;
+       height: 70px;
+       background-color: white;
+       text-align: center;
+    }
+    .icon{
+    width: 50%;
+    align-content: center;
+    }
       
 
     .forecast{
