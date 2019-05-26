@@ -106,7 +106,7 @@ h3 {
 } 
 .forecast{
     align-content: center;
-    display:block;
+    display:none;
 
 }
 #Foretitle{
