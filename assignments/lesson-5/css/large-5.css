@@ -1,5 +1,5 @@
 /* Media Query for medium + screens */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 800px) {
     .navigation li:first-child { display:none;	}
       .navigation li { display: inline-block; margin-right: 1rem;}	
       .navigation li a { color: yellow;}
