@@ -129,7 +129,15 @@ h3 {
     width: 90%;
     height: auto;
 }
-
+.photo img{
+  width:100%;
+  border: 1px black solid;
+  padding: 1px;
+}
+figcaption{
+  text-align: center;
+  font-size: .7rem;
+}
 .summary {
     position: absolute;
     top: 50px;
