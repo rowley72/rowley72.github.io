@@ -1,4 +1,4 @@
 function toggleMenu(){
 
-    document.getElementById("mainMenu").classList.toggle("hide");
+    document.getElementsByClassName("mainMenu")[0].classList.toggle("responsive");
 }

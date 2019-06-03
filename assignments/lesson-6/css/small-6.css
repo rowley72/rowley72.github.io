@@ -39,59 +39,47 @@ header img{
   border: 2px yellow;
 }
 /* nav style*/
+nav {	
+  margin: 0 auto;	
+  max-width: 900px; 
+  background-color: #000;	}
 
-nav button{
-margin:0 auto;
-background-color: transparent;
-border:none;
-font-size: 1.6rem;
-color:#555;
-text-align: center;
-display: block;
-
-
-
+.mainMenu { 
+  list-style: none; 
+  text-align: center; 
 }
-nav {
-    background-color: #000;
-    font-family: 'Times New Roman', Times, serif;
-
-
+.mainMenu li:first-child { 
+  display: block;
 }
-nav ul {
-    list-style: none;
-    padding:0;
-    margin:0;
-}
+.mainMenu li { 
+  display: none;}
 
-nav ul li a {
-    display:block;
-    padding: .8rem 2%;
-    text-decoration: none;
-    color:rgb(239, 243, 13);
-    border-top: 1px solid rgba(0,0,0,0.3);
-    text-align: center;
-   
-
+.mainMenu a {	
+  display: block;	
+  color: #fff; 
+  padding: .75rem;	
+  text-align: center;	
+  text-decoration: none;
 }
-nav ul li .active a{
-  background-color:greenyellow;
+.mainMenu a:hover {	color: #000; 
+  background-color: #fff; 
+  font-weight: 700;	}
+
+
+
+
+li a:hover:not(.active) {
+  background-color: green;
 }
 
-nav ul li a:hover{ 
-  color: white;
-  background-color: rgb(70, 160, 74);
-  
+
+.active {
+  background-color: rgb(104, 110, 106);
 }
-.hide{
-  display:none;
-}
-/*
-.navigation li:first-child { 
-      display: block;
-    }
-.navigation li { 
-      display: none;}
+
+.responsive li { display: block; }
+
+      /*
 .navigation a {
     display: block;	color: #fff;
      padding: .75rem;
