@@ -41,7 +41,7 @@ header img{
 /* nav style*/
 nav {	
   margin: 0 auto;	
-  max-width: 900px; 
+  max-width: 100%; 
   background-color: #000;	}
 
 .mainMenu { 
@@ -56,22 +56,19 @@ nav {
 
 .mainMenu a {	
   display: block;	
-  color: #fff; 
+  color: gray; 
   padding: .75rem;	
   text-align: center;	
   text-decoration: none;
 }
 .mainMenu a:hover {	color: #000; 
-  background-color: #fff; 
+  background-color: rgb(147, 214, 130); 
   font-weight: 700;	}
-
-
 
 
 li a:hover:not(.active) {
   background-color: green;
 }
-
 
 .active {
   background-color: rgb(104, 110, 106);
@@ -79,26 +76,7 @@ li a:hover:not(.active) {
 
 .responsive li { display: block; }
 
-      /*
-.navigation a {
-    display: block;	color: #fff;
-     padding: .75rem;
-    text-align: center;
-    text-decoration: none;}
-.navigation a:hover {
-    color: #000;
-    background-color: #fff;
-    font-weight: 700;	}
-  
-  li a:hover:not(.active) {
-    background-color: green;
-  }
-  nav ul.navigation{display:none;}
-  
-  .active {
-    background-color: rgb(104, 110, 106);
-  }
- */
+      
 /*preston front page style*/
 h3 {
 	Font-family:"Alegreya", "Book Antiqua", Palatino;
