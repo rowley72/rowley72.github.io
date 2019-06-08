@@ -1,6 +1,6 @@
 
 var d= new Date();
-
+/*var n= d.toDateString();*/
 var weekday = new Array(7);
 weekday[0] =  "Sunday";
 weekday[1] = "Monday";

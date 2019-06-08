@@ -1,0 +1,25 @@
+/* Media Query for large+ screens */
+@media only screen and (min-width:800px) {
+
+  .mainMenu li:first-child { display:none;	}
+  .mainMenu li { display: inline-block; margin-right: 1rem;}	
+  .mainMenu li a { color: yellow;}
+
+
+    
+      .forecast{
+        align-content: center;
+        display:block;
+    
+    } 
+
+
+
+
+
+}/*end large */
+  
+
+
+
+
