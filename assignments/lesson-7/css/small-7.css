@@ -15,28 +15,28 @@ header {
 }
 
 header img{
-    float: left;
-    padding: 10px;
+  float: left;
+  padding: 10px;
 
 }
 
 #headings {
-	display: inline-block;
-	vertical-align: middle;
-	margin: 10px;
-	font-family:"Courgette", Charcoal, sans-serif;
-	font-size: 1.9em;
-	
+display: inline-block;
+vertical-align: middle;
+margin: 10px;
+font-family:"Courgette", Charcoal, sans-serif;
+font-size: 1.9em;
+
 }
 .motto{
-	font-size: 13px;
+font-size: 13px;
 }
 .img {
-	width: 85px;
-	position: relative;
-  top: 10px;
-  left: 10px;
-  border: 2px yellow;
+width: 85px;
+position: relative;
+top: 10px;
+left: 10px;
+border: 2px yellow;
 }
 /* nav style*/
 nav {	
