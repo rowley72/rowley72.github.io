@@ -1,6 +1,8 @@
 /* medium and up views */
-@media (min-width: 45em) {
-	.mainMenu li:first-child { display: none;	}
-	.mainMenu li { display: block; flex: 1 1 auto; }
-	.mainMenu { flex-direction: row; }
+@media only screen and (max-width:600px) {
+	
+    
+    .container{
+        width: 100%;
+    }
 }
