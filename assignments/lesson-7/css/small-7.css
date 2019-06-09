@@ -26,11 +26,11 @@ flex-direction:column;
 justify-content:center;
 margin: 10px;
 font-family:"Courgette", Charcoal, sans-serif;
-font-size: 1.9em;
+font-size: 2em;
 
 }
-.motto{
-font-size: 20px;
+.motto h2{
+font-size: .6em;
 
 }
 .img {
@@ -263,3 +263,12 @@ background-color:#688A08;
    margin: .5rem;
   }
   .norm:hover {box-shadow: 0 0 50px #333;}
+
+  @media only screen and (min-width:400px) {
+	
+    .container{ 
+        display:grid; 
+        grid-template-columns: 1fr ;
+      }
+        
+}

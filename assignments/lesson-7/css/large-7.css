@@ -4,9 +4,7 @@
 	.mainMenu li { display: block; flex: 1 1 auto; }
     .mainMenu { flex-direction: row; }
   
-    .container img{
-      width:100%;
-    }
+    
     
       .forecast{
         align-content: center;
@@ -14,7 +12,10 @@
     
     } 
 
-
+    .container{ 
+      display:grid; 
+      grid-template-columns: 1fr 1fr 1fr;
+    }
 
 
 
