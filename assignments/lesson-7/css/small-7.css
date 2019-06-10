@@ -7,7 +7,7 @@
 }
 
 header {
-	margin: 10px auto;
+	margin: 7px ;
 	background-color:rgb(231, 207, 69);
 	border: 1px solid #bbb;
 	box-shadow: 0 0 30px #777;
@@ -34,7 +34,7 @@ font-size: .6em;
 
 }
 .img {
-width: 90px;
+width: 85px;
 position: relative;
 top: 10px;
 left: 10px;
@@ -259,7 +259,7 @@ background-color:#688A08;
 
 .container img { 
   width: 250px; 
-  height: auto;
+  height: 200px;
    margin: .5rem;
   }
   .norm:hover {box-shadow: 0 0 50px #333;}
