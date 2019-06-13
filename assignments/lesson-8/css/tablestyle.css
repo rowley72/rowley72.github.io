@@ -53,7 +53,8 @@
       background-color:#7fb9c2 ;
       font-weight: bold;
       color:black;
-      font-size: .5em;
+      
+    
       
      
 }
@@ -68,10 +69,15 @@ span{
       text-align: center;
   }
   h2{
-      font-size: 4em;
+      font-size: 2em;
       font-family: 'Ubuntu',sans-serif;
       height: 5px;
       
 }
-
+#fstyle{
+    background-color:#7fb9c2 ;
+      font-weight: bold;
+      color:black;
+      font-size: .5em;
+}
   
