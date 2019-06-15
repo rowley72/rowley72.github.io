@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+    <meta name="author" content="Briggite Rowley| CIT 230 BYUI">
+    <meta name="description" content="The Weather Site Project">
+    <title> Weather Forecast Site </title>
+    <link  href="https://fonts.googleapis.com/css?family=Courgette%7cKalam" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/small-8.css">
+    <link rel="stylesheet" href="css/medium-8.css">
+    <link rel="stylesheet" href="css/large-8.css">
+    
+
+</head>
+
+<body>
+        <div id="content">
+                <header>
+                    <img class="img" src="images/weathersunny1.png" alt="The world logo">
+                <div class="headings">
+                    <h1>Sunny or Not Forecast</h1>
+               <div class="motto">
+               <h2> Acurate Weather Conditions</h2>
+                   </div>
+                </div>
+                </header>
+               <nav class="clearfix">
+                   
+                   <ul class="mainMenu">
+                        <li> <a href="#" onclick="toggleMenu()"> &#9776;Menu</a></li>
+                        <li> <a href="#">HOME</a></li>
+                        <li> <a class="active" href="preston-8.html">PRESTON</a></li>
+                        <li> <a href="#">SODA SPRINGS</a></li>
+                        <li> <a href="#">FISH HAVENS</a></li>
+                        <li> <a href="stormcenter.html">STORM CENTER</a></li>
+                        <li> <a href="gallery-7.html">GALLERY</a></li>
+        
+                   </ul>
+                    </nav>
+
+        <main class="sectionabout">
+                <h2>Contact Us</h2>
+                          
+                 <form  method= "get" action="#">
+                     <fieldset>
+                         <legend>Aplicant Information</legend>
+                        <div class="row">
+                          <div class="col-1">
+                            <label for="fname">First Name</label>
+                          </div>
+                          <div class="col-2">
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-1">
+                            <label for="lname">Last Name</label>
+                          </div>
+                          <div class="col-2">
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                          </div>
+                        </div>
+                        <div class="row">
+                                <div class="col-1">
+                                  <label for="pnumber">Phone Number</label>
+                                </div>
+                                <div class="col-2">
+                                  <input type="tel" id="pnumber" name="phone" placeholder="1234567">
+                                </div>
+                              </div>
+                              <div class="row">
+                              <div class="col-1">
+                              <lavel for="Zipcode">Zipcode</lavel>
+                              </div>
+                              <div class="col-2">
+                              <input type="number" id="Zipcode" name="zipcode" >
+                              </div>
+                            </div>
+                        <div class="row">
+                          <div class="col-1">
+                            <label for="emailaddress">Email address</label>
+                          </div>
+                          <div class="col-2">
+                            <input type="text" id="emailaddress" name="email address" placeholder="Your email address..">
+                          </div>
+                        </div>
+                    </fieldset>
+                        <div class="row">
+                          <div class="col-1">
+                            <label for="subject">Subject</label>
+                          </div>
+                          <div class="col-2">
+                            <textarea id="subject" name="subject" placeholder="Write something.." ></textarea>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <input type="submit" value="Submit">
+                        </div>
+                        </form>
+                      
+        </main>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <footer>
+                <div>
+                 <p id="info">&copy; 2019 All Rights Reserved  |  SunnyOrnot Forecast |<span id="currentdate"></span></p>
+                 </div>
+                 
+                
+            </footer>
+     
+         </div>
+         <!--Script for Navigation and Footer Date-->
+         <script src="js/currentDate.js"></script>
+         <script src="js/hamburger.js"></script>
+        
+        </body>
+
+
+
+
+
+
+
+
+
+</html>

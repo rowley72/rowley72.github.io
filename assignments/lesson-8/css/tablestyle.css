@@ -80,4 +80,7 @@ span{
       color:black;
       font-size: .5em;
 }
+tfoot  tr td{
+    background-color: aqua !important; 
+}
   
