@@ -13,11 +13,11 @@
     } 
 
     .container{ 
-      display:grid; 
+      display:inline-grid; 
       grid-template-columns: 1fr 1fr 1fr;
     }
 
-
+    .norm:hover {box-shadow: 0 0 50px #333;}
 
 }/*end large */
   
