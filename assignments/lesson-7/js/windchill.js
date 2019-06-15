@@ -1,9 +1,9 @@
 var tempF = document.getElementById("temp").innerHTML;
-alert(tempF);
+
 tempF=parseInt(tempF);
 
 var speed= document.getElementById("speed").innerHTML;
-alert(speed);
+
 speed= parseInt(speed);
 
 
