@@ -41,65 +41,131 @@
                    </ul>
                     </nav>
 
-        <main class="sectionabout">
-                <h2>Contact Us</h2>
+        <main>
+                <h2>STORM CENTER FORM</h2>
                           
-                 <form  method= "get" action="#">
+                 <form  method= "get" action="thanksletter.html">
                      <fieldset>
-                         <legend>Aplicant Information</legend>
+                         <legend>Personal Information</legend>
                         <div class="row">
-                          <div class="col-1">
-                            <label for="fname">First Name</label>
-                          </div>
-                          <div class="col-2">
-                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                          </div>
+                          
+                            <label for="fname">Full Name*</label>
+                          
+                         
+                            <input type="text" id="fname" name="fullname" required >
+                         
                         </div>
                         <div class="row">
-                          <div class="col-1">
-                            <label for="lname">Last Name</label>
-                          </div>
-                          <div class="col-2">
-                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                          </div>
-                        </div>
+                                
+                                  <label for="emailaddress">Email address</label>
+                               
+                                
+                                  <input type="text" id="emailaddress" name="email address" placeholder="someone@yahoo.com">
+                                
+                              </div>
+                        
                         <div class="row">
+                                
+                                  <label for="pnumber">Phone Number*</label>
+                                
+                                
+                                  <input type="tel" id="pnumber" name="phone" placeholder="1234567" required>
+                               
+                              </div>
+                              <div class="row">
+                             
+                              <lavel for="Zipcode">Zip Code*</lavel>
+                              
+                              
+                              <input type="number" id="Zipcode" name="zipcode" required >
+                             
+                            </div>
+                        
+                    </fieldset>
+                    <fieldset>
+                            <legend>Storm Information</legend>
+                    <div class="row">
+                            <div class="col-1">
+                              <label for="stdate">Storm Date</label>
+                            </div>
+                            <div class="col-2">
+                              <input type="Date" id="stdate" name="storm date">
+                            </div>
+                          </div>
+                          <div class="row">
                                 <div class="col-1">
-                                  <label for="pnumber">Phone Number</label>
+                                  <label for="stype">Storm Type</label>
                                 </div>
                                 <div class="col-2">
-                                  <input type="tel" id="pnumber" name="phone" placeholder="1234567">
+                                  <input list="stormtypes"  name="storm type">
+                                  <datalist id="stormtypes">
+
+                                    <option value="flash Flood">
+                                     <option value="Hail">
+                                     <option value="Hurricane">
+                                    <option value="Thunderstorm">
+                                    <option value="Tornado">
+
+                                  </datalist>
                                 </div>
                               </div>
                               <div class="row">
-                              <div class="col-1">
-                              <lavel for="Zipcode">Zipcode</lavel>
-                              </div>
-                              <div class="col-2">
-                              <input type="number" id="Zipcode" name="zipcode" >
-                              </div>
-                            </div>
+                                    <div class="col-1">
+                                      <label for="rating"> Storm Severity<br>Rating (1 to 10):</label>
+                                    </div>
+                                    <div class="col-2">
+                                      <input type="range" id="rating" value="5" min="1" max="10" step="1"
+                                      oninput="adjustRating(this.value)"
+                                     onchange="adjustRating(this.value)">
+                                     <span id="ratingvalue">5</span><br>
+                                    </div>
+                                  </div>
+                                  <label>Storm Region
+
+
+                                        <select name="Subject">
+                                        <option value="">Select region</option>
+                                        <option value="Preston">Preston</option>
+                                        <option value="Sodaspring">Soda Springs</option>
+                                        <option value="FishHea">Fish Havens</option>
+                                    </select>
+                                  </label>
+                                  <div>
+                                        user in-danger level
+                                  </div>
+                                  
+                                    <div>
+                                        <input type="radio" name="audience" value="yes" checked>
+                                        <label for="audience">Yes</label>
+                                       
+                                    </div>
+                                    <div>
+                                            <input type="radio" name="audience" value="maybe" checked>
+                                  <label for="audience">Maybe</label>
+                                      
+                                  </div>
+                                  <div>
+                                        <input type="radio" name="audience" value="no" checked>
+                                  <label for="audience">No</label>
+                                      
+                                  </div>
+                        </fieldset>
+                        <fieldset>
+                                <legend>Additional Information</legend>
                         <div class="row">
                           <div class="col-1">
-                            <label for="emailaddress">Email address</label>
+                            <label for="textarea">Subject</label>
                           </div>
                           <div class="col-2">
-                            <input type="text" id="emailaddress" name="email address" placeholder="Your email address..">
-                          </div>
-                        </div>
-                    </fieldset>
-                        <div class="row">
-                          <div class="col-1">
-                            <label for="subject">Subject</label>
-                          </div>
-                          <div class="col-2">
-                            <textarea id="subject" name="subject" placeholder="Write something.." ></textarea>
+                            <textarea id="textarea" name="textarea" placeholder="Write something.." ></textarea>
                           </div>
                         </div>
                         <div class="row">
                           <input type="submit" value="Submit">
                         </div>
+                        </fieldset>
                         </form>
+                        
                       
         </main>
     
@@ -128,6 +194,7 @@
          <!--Script for Navigation and Footer Date-->
          <script src="js/currentDate.js"></script>
          <script src="js/hamburger.js"></script>
+         <script src="js/rating.js"></script>
         
         </body>
 
