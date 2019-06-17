@@ -305,7 +305,7 @@ form .row input, form .row select{
 }
 .radiob{
     display: block;
-    padding:.75rem;
+    padding:.55rem;
 }
   .buttom{
      border:2px solid darkgreen;
