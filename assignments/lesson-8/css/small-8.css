@@ -270,7 +270,7 @@ main{
 
   
 /*-------------------Storm Center Form------------*/
-main{
+#field {
     padding: 0 2%;
     min-height: 20rem;
 }
