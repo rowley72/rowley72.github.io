@@ -83,7 +83,7 @@
                                   <label for="stormtypes">Storm Type</label>
                                     <input list="stormtypes"  name="stormtype">
                                 <datalist id="stormtypes">
-                                    <option value="flash Flood">
+                                    <option value="Flash Flood">
                                      <option value="Hail">
                                      <option value="Hurricane">
                                     <option value="Thunderstorm">
@@ -94,13 +94,14 @@
                               </div>
                               <div class="row">
                                     
-                                      <label for="rating"> Storm Severity<br>Rating (1 to 10):</label>
+                                      <label for="rating"> Storm Severity<br><br>Rating (1 to 10):</label>
                                     <input type="range" id="rating" value="5" min="1" max="10" step="1"
                                       oninput="adjustRating(this.value)"
                                      onchange="adjustRating(this.value)">
                                      <span id="ratingvalue">5</span><br>
                                     
                                   </div>
+                                  <div class="row">
                                   <label>Storm Region
                                         <select name="Subject">
                                         <option value="">Select Region</option>
@@ -109,7 +110,8 @@
                                         <option value="FishHea">Fish Havens</option>
                                     </select>
                                   </label>
-                                  <div>
+                                  </div>
+                                  <div class="row">
                                         User in-danger level
                                   </div>
                                   
