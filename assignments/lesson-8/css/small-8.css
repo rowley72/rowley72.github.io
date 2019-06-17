@@ -275,6 +275,7 @@ margin: 2rem 0;
 border:1px solid black;
 border-radius: 10px;
 padding: .5rem 2%;
+background-color: rgb(103, 133, 100);
 }
 form legend{
 color:rgb(12, 8, 27);
