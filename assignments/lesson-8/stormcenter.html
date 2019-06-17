@@ -50,56 +50,39 @@
                         <div class="row">
                           
                             <label for="fname">Full Name*</label>
-                          
-                         
-                            <input type="text" id="fname" name="fullname" required >
+                            <input type="text" id="fname" name="fullname" pattern="[a-zA-Z]" required minlength="5">
                          
                         </div>
                         <div class="row">
-                                
-                                  <label for="emailaddress">Email address</label>
-                               
-                                
-                                  <input type="text" id="emailaddress" name="email address" placeholder="someone@yahoo.com">
-                                
-                              </div>
+                            <label for="emailaddress">Email address</label>
+                            <input type="text" id="emailaddress" name="email address" placeholder="someone@yahoo.com">
+                         </div>
                         
                         <div class="row">
                                 
-                                  <label for="pnumber">Phone Number*</label>
-                                
-                                
-                                  <input type="tel" id="pnumber" name="phone" placeholder="1234567" required>
-                               
-                              </div>
-                              <div class="row">
-                             
+                                <label for="pnumber">Phone Number*</label>
+                                <input type="tel" id="pnumber" name="phone" placeholder="1234567" required>
+                        </div>
+                        <div class="row">
                               <label for="Zipcode">Zip Code*</label>
-                              
-                              
                               <input type="number" id="Zipcode" name="zipcode" required >
                              
-                            </div>
+                        </div>
                         
                     </fieldset>
                     <fieldset>
                             <legend>Storm Information</legend>
                     <div class="row">
-                            <div class="col-1">
-                              <label for="stdate">Storm Date</label>
-                            </div>
-                            <div class="col-2">
-                              <input type="Date" id="stdate" name="storm date">
-                            </div>
+                            
+                            <label for="stdate">Storm Date</label>
+                            <input type="Date" id="stdate" name="storm date">
+                            
                           </div>
                           <div class="row">
                               
                                   <label for="stormtypes">Storm Type</label>
-                                
-                                
-                                  <input list="stormtypes"  name="stormtype">
-                                  <datalist id="stormtypes">
-
+                                    <input list="stormtypes"  name="stormtype">
+                                <datalist id="stormtypes">
                                     <option value="flash Flood">
                                      <option value="Hail">
                                      <option value="Hurricane">
@@ -110,28 +93,24 @@
                                 
                               </div>
                               <div class="row">
-                                    <div class="col-1">
+                                    
                                       <label for="rating"> Storm Severity<br>Rating (1 to 10):</label>
-                                    </div>
-                                    <div class="col-2">
-                                      <input type="range" id="rating" value="5" min="1" max="10" step="1"
+                                    <input type="range" id="rating" value="5" min="1" max="10" step="1"
                                       oninput="adjustRating(this.value)"
                                      onchange="adjustRating(this.value)">
                                      <span id="ratingvalue">5</span><br>
-                                    </div>
+                                    
                                   </div>
                                   <label>Storm Region
-
-
                                         <select name="Subject">
-                                        <option value="">Select region</option>
+                                        <option value="">Select Region</option>
                                         <option value="Preston">Preston</option>
                                         <option value="Sodaspring">Soda Springs</option>
                                         <option value="FishHea">Fish Havens</option>
                                     </select>
                                   </label>
                                   <div>
-                                        user in-danger level
+                                        User in-danger level
                                   </div>
                                   
                                     <div>
@@ -163,7 +142,7 @@
                         </div>
                     </fieldset>
                         <div >
-                          <input type="submit" value="submit" class="buttom">
+                          <input type="submit" value="submit form" class="buttom">
                         </div>
                         
                         </form>
