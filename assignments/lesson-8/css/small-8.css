@@ -250,7 +250,11 @@ background-color:#688A08;
 }
 
 /*-----Gallery Page----*/
-
+main{
+    display:block;
+    text-align: center;
+    
+ }
 .container {
   margin: 1rem auto; 
   display: inline-grid; 
@@ -262,8 +266,8 @@ background-color:#688A08;
   height: 200px;
    margin: .5rem;
 
-  
   }
+
   
 /*-------------------Storm Center Form------------*/
 main{
