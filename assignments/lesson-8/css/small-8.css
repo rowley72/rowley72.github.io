@@ -346,7 +346,11 @@ form .row input, form .row select{
     font-size: 1.5rem;
 }
 
-
+.thklet{
+    font-family: Georgia, 'Times New Roman';
+    font-size: 2rem;
+    font-weight: bold;
+}
 
 
   @media only screen and (min-width:400px) {
