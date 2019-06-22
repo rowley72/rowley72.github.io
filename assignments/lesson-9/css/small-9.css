@@ -356,12 +356,13 @@ form .row input, form .row select{
 #ftos{
   display: flex;
   justify-content: center;
-  background-image: url("images/preston1.jpg");
+  
  
 }
 #home{
 text-align: center;
-font-size: 3rem;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 2rem;
 
 }
 .bloque{
