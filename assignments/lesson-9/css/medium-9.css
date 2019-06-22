@@ -1,0 +1,11 @@
+/* medium and up views */
+@media only screen and (min-width:600px) {
+	
+    .container{ 
+      display:inline-grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      figure img{
+        width:100%;
+    } 
+}

@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette%7cKalam');
+
+#content {
+	background-color:rgb(147, 167, 125);
+	margin: 0 auto; 
+	padding: 10px;
+}
+
+header {
+	margin: 7px ;
+	background-color:rgb(231, 207, 69);
+	border: 1px solid #bbb;
+	box-shadow: 0 0 30px #777;
+	text-align: center;
+}
+
+header img{
+  float: left;
+  padding: 10px;
+
+}
+
+.headings {
+display: flex;
+flex-direction:column;
+justify-content:center;
+margin: 10px;
+font-family:"Courgette", Charcoal, sans-serif;
+font-size: 2em;
+
+}
+.motto h2{
+font-size: .6em;
+
+}
+.img {
+width: 85px;
+position: relative;
+top: 10px;
+left: 10px;
+border: 2px yellow;
+}
+/* nav style*/
+nav {	
+  margin: 0 auto;	
+  max-width: 100%; 
+  background-color: #000;	}
+
+.mainMenu { 
+  list-style: none; 
+  margin:0;
+  padding:0;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+
+}
+.mainMenu li:first-child { 
+  display: block;
+}
+.mainMenu li { 
+  display: none;}
+
+.mainMenu  a {	
+  display: block;	
+  color: gray; 
+  padding: .75rem;	
+  text-align: center;	
+  text-decoration: none;
+}
+.mainMenu a:hover {	color: #000; 
+  background-color: rgb(147, 214, 130); 
+  font-weight: 700;	}
+
+
+li a:hover:not(.active) {
+  background-color: green;
+}
+
+.active {
+  background-color: rgb(104, 110, 106);
+}
+
+.responsive li { display: block; }
+
+      
+/*preston front page style*/
+h3 {
+	Font-family:"Alegreya", "Book Antiqua", Palatino;
+	text-align: center;
+	font-size: 2.25em;
+}
+.firstcont{
+    border: black;
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    margin-left:auto;
+
+}
+.img1{
+    width: 90%;
+    height: auto;
+}
+.photo img{
+  width:100%;
+  border: 1px black solid;
+  padding: 1px;
+}
+figcaption{
+  text-align: center;
+  font-size: .7rem;
+}
+.summary {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: #777;
+    border: 1px solid black; 
+    padding: .5rem;
+    font-size: .8em;
+    
+}
+
+.underline{
+    text-decoration: underline;
+} 
+.forecast{
+    align-content: center;
+    display:none;
+
+}
+#Foretitle{
+
+text-align: center;
+}
+   img{
+       width:50%;}
+
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+   
+   
+  }
+  
+    th {
+    border: 1px solid black;
+    padding: 0 5em 0 0.5em;
+    background-color: rgb(108, 158, 108);
+    padding: 10px;
+    
+    
+  }
+  
+  
+  td {border: 1px solid black;
+   height: 70px;
+   background-color: white;
+   text-align: center;
+}
+.icon{
+width: 50%;
+align-content: center;
+}
+
+.article{
+background-color:  rgb(179, 175, 127);
+border: 1px solid white;
+margin:20px;
+font-family: Arial, Helvetica, sans-serif;
+line-height: 1.3em;
+padding: .8rem 2%;
+flex: 1 0 15em;
+    
+}
+   .town img{
+       display: block;
+       margin:  10px auto;
+       max-width: 200px;
+       box-shadow: 2px 2px 10px #000;
+       float:right;
+       padding: 10px;
+ }
+.clearfix{
+    overflow: auto;
+}
+
+
+   
+.section2{
+
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+align-items: center; 
+border: 2px solid black;
+padding: 10px;
+}
+
+.inform{
+    max-width:48%;
+  flex: 1 0 15em;
+
+}
+.inform img{
+    width:10px;
+}
+.inform p{
+    font-size: 1em;
+    line-height: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.right{
+    max-width:48%;
+    flex: 1 0 15em;
+
+}
+.img3{
+    display: block;
+       margin:  10px auto;
+       width: 100%;
+       box-shadow: 2px 2px 10px #000;
+    float: right;
+       padding: 10px;
+    
+}
+
+ h1,h2{	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size:1.1em;
+  line-height:1em;
+	
+}
+
+
+
+footer {
+background-color:#688A08;
+	padding: 5px ; 
+   margin-top: 100px;
+	text-align: center;
+}
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*-----Gallery Page----*/
+main{
+    display:block;
+    text-align: center;
+    
+ }
+.container {
+  margin: 1rem auto; 
+  display: inline-grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  max-width: 1048px;}
+
+.container img { 
+  width: 250px; 
+  height: 200px;
+   margin: .5rem;
+
+  }
+
+  
+/*-------------------Storm Center Form------------*/
+#field {
+    text-align: inherit;
+    padding: 0 2%;
+    min-height: 20rem;
+}
+form fieldset{
+margin: 2rem 0;
+border:1px solid black;
+border-radius: 10px;
+padding: .5rem 2%;
+background-color: rgb(103, 133, 100);
+}
+form legend{
+color:rgb(12, 8, 27);
+margin: 0 1rem;
+padding: 0 .5rem;
+font-family: Arial, Helvetica, sans-serif;
+}
+.row{
+    display: block;
+    padding-top:1rem;
+    color:black;
+    font-size: 1rem;
+    font-weight: bold;
+    
+}
+form .row input, form .row select{
+    display:block;
+    font-size: 1rem;
+    border:solid 1px rgb(22, 22, 22);
+    border-radius: 3px;
+    padding: .75rem;
+    color:#555;
+    width:100%;
+    max-width: 18.6rem;
+    background-color: rgb(239, 243, 241);
+    
+}
+.radiob{
+    display: block;
+    padding:.55rem;
+}
+  .buttom{
+     border:2px solid darkgreen;
+     background-color:white;
+     color:black;
+     border-radius: 1rem;
+     padding: .75rem 1.5rem;
+     margin:0 0 2rem 2%;
+     max-width: 20rem;
+     cursor: pointer;
+ }
+ .buttom:hover {
+    background-color: rgb(106, 150, 102);
+  }
+.textar{
+    width: 60%;
+    height:80px;
+    display:block;
+    font-size: 1rem;
+    border:solid 1px rgb(22, 22, 22);
+    border-radius: 3px;
+    padding: .75rem;
+    color:#555;
+    width:100%;
+    max-width: 20rem;
+    background-color: rgb(239, 243, 241)
+}
+
+#titleform{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.thklet{
+    font-family: Georgia, 'Times New Roman';
+    font-size: 2rem;
+    font-weight: bold;
+}
+/*---------------------Home Page----------------*/
+
+#ftos{
+  display: flex;
+}
+.bloque{
+  width: 30%;
+  background-color: rgb(102, 112, 103);
+  margin: 5px;
+  padding: 10px;
+  border-radius:5px;
+}
+
+
+
+
+
+
+  @media only screen and (min-width:400px) {
+	
+    .container{ 
+        display:inline-grid; 
+        grid-template-columns: 1fr ;
+      }
+        
+}
