@@ -26,10 +26,10 @@ function datasection(jsonObj) {
           var myImg = document.createElement("img");
 
           myH2.textContent = infodata[i].name;
-          myPara1.textContent = 'motto: ' +infodata[i].motto;
-          myPara2.textContent = 'yearFounded: ' + infodata[i].yearFounded;
-          myPara3.textContent = 'currentPopulation:'+ infodata[i].currentPopulation;
-          myPara4.textContent = 'averageRainfall: ' +infodata[i].averageRainfall;
+          myPara1.textContent = '' +infodata[i].motto;
+          myPara2.textContent = 'Year Founded: ' + infodata[i].yearFounded;
+          myPara3.textContent = 'Current Population:'+ infodata[i].currentPopulation;
+          myPara4.textContent = 'Average Rainfall: ' +infodata[i].averageRainfall;
           myImg.src = "images/" + idName + "-section.jpg";
           myImg.className = "homeimage";
           myArticle.appendChild(myH2);
