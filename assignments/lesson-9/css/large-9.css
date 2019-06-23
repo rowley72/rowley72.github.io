@@ -19,6 +19,13 @@
 
     .norm:hover {box-shadow: 0 0 50px #333;}
 
+
+    #ftos{
+      display:grid; 
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    .bloque{
+      width: 95%;}
 }/*end large */
   
 

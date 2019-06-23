@@ -4,10 +4,22 @@
     .container{ 
       display:inline-grid;
         grid-template-columns: 1fr 1fr;
+       
       }
       figure img{
         width:100%;
     } 
     
-    
+    #ftos{
+      display:grid;
+      grid-template-columns: 1fr ;
+      
+    }
+    .bloque{
+      width: 70%;}
+
+      .homeimage{
+        width:100%;
+       
+      }
 }
