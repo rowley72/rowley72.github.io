@@ -19,24 +19,24 @@ function datasection(jsonObj) {
         if (idName === sections[n].id) {
           var myArticle = document.createElement('article');
           var myH2 = document.createElement('h2');
+          var myH6 = document.createElement('h6');
           var myPara1 = document.createElement('p');
           var myPara2 = document.createElement('p');
           var myPara3 = document.createElement('p');
-          var myPara4 = document.createElement('p');
           var myImg = document.createElement("img");
 
           myH2.textContent = infodata[i].name;
-          myPara1.textContent = '' +infodata[i].motto;
-          myPara2.textContent = 'Year Founded: ' + infodata[i].yearFounded;
-          myPara3.textContent = 'Current Population:'+ infodata[i].currentPopulation;
-          myPara4.textContent = 'Average Rainfall: ' +infodata[i].averageRainfall;
+          myH6.textContent = '' +infodata[i].motto;
+          myPara1.textContent = 'Year Founded: ' + infodata[i].yearFounded;
+          myPara2.textContent = 'Current Population:'+ infodata[i].currentPopulation;
+          myPara3.textContent = 'Average Rainfall: ' +infodata[i].averageRainfall;
           myImg.src = "images/" + idName + "-section.jpg";
           myImg.className = "homeimage";
           myArticle.appendChild(myH2);
+          myArticle.appendChild(myH6);
           myArticle.appendChild(myPara1);
           myArticle.appendChild(myPara2);
           myArticle.appendChild(myPara3);
-          myArticle.appendChild(myPara4);
           myArticle.appendChild(myImg);
     
           sections[n].appendChild(myArticle);
