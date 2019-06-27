@@ -8,7 +8,22 @@ weatherRequest.onload =  function () {
 
     console.log(weatherData);
 
-    document.getElementById('cc-temp').innerHTML=weatherData.main.temp;
+    document.getElementById('htemp').innerHTML=weatherData.main.temp;
+    document.getElementById('curret').innerHTML=weatherData.weather[0].description;
+    document.getElementById('humi').innerHTML=weatherData.main.humidity;
+    document.getElementById('wispeed').innerHTML=weatherData.wind.speed;
+
+
+
+var tempF = weatherData.main.temp;
+var speed  = weatherData.wind.speed;
+var t=tempF;
+var s=Math.pow(speed,0.16);
+windchilF=35.74+0.6215*t-35.75*s+0.4275*t*s;
+windchilFR=parseFloat(windchilF.toFixed(1));
+
+document.getElementById('windchill').innerHTML = windchilFR;
+    
 
 
 }
