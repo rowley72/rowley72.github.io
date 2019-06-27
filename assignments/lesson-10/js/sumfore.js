@@ -13,10 +13,7 @@ weatherRequest.onload =  function () {
     document.getElementById('humi').innerHTML=weatherData.main.humidity;
     document.getElementById('wispeed').innerHTML=weatherData.wind.speed;
 
-    var icon="http://openweathermap.org/img/w/"+ weatherData.weather[0].icon+".png";
-    var desc=weatherData.weather[0].description;
-    document.getElementById('cc-img').setAttribute('src',icon);
-    document.getElementById('cc-img').setAttribute('alt',desc);
+    
 
 
 
