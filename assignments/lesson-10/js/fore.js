@@ -10,7 +10,7 @@ foreRequest.onload =  function () {
 
 
     var icon="http://openweathermap.org/img/w/"+ foreData.list[4].weather[0].icon+".png";
-    var desc=foreData.weather[0].description;
+    var desc=foreData.list[4].description;
     document.getElementById('for-img').setAttribute('src',icon);
     document.getElementById('for-img').setAttribute('alt',desc);
 
