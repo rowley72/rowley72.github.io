@@ -20,6 +20,8 @@ weatherRequest.onload =  function () {
 
 
 
+
+
 var tempF = weatherData.main.temp;
 var speed  = weatherData.wind.speed;
 var t=tempF;
@@ -28,6 +30,7 @@ windchilF=35.74+0.6215*t-35.75*s+0.4275*t*s;
 windchilFR=parseFloat(windchilF.toFixed(1));
 
 document.getElementById('windchill').innerHTML = windchilFR;
+
 
 
     
