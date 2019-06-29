@@ -21,11 +21,11 @@ foreRequest.onload =  function () {
 
         if (forcast_date.getHours() === 18) {
             weatherTableHeaders[weatherTableCellsCounter].textContent = days[forcast_date.getDay()] + "\n"  + months[forcast_date.getMonth()]+forcast_date.getDate()
-            weatherTableData[weatherTableCellsCounter] .textContent=forcast.main.temp
+            weatherTableData[weatherTableCellsCounter].textContent=forcast.main.temp;
+           
             
     
            
-            //do stuff
             weatherTableCellsCounter++
         }
 
@@ -47,11 +47,11 @@ var request = new XMLHttpRequest();
     request.send();
     request.onload = function() {
   var towndata = request.response;
-  datasection(towndata);
+  dataevent(towndata);
   
   
 }
-function datasection(jsonObj) {
+function dataevent(jsonObj) {
     var infoevent = jsonObj['towns'];
     
     for (var n = 0; n < secteven.length; n++) {
