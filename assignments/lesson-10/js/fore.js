@@ -13,14 +13,18 @@ foreRequest.send();
 
 foreRequest.onload =  function () {
     foreData = JSON.parse(foreRequest.responseText);
+    
 
     for (i = 0; i < foreData.list.length; i++) {
         var forcast = foreData.list[i]
         var forcast_date = new Date(forcast.dt_txt)
 
         if (forcast_date.getHours() === 18) {
-            weatherTableHeaders[weatherTableCellsCounter].textContent = days[forcast_date.getDay()] + "\n" + forcast_date.getDate() + ", " + months[forcast_date.getMonth()]
-            //weatherTableData[weatherTableCellsCounter] = 
+            weatherTableHeaders[weatherTableCellsCounter].textContent = days[forcast_date.getDay()] + "\n"  + months[forcast_date.getMonth()]+forcast_date.getDate()
+            weatherTableData[weatherTableCellsCounter] .textContent=forcast.main.temp
+            
+    
+           
             //do stuff
             weatherTableCellsCounter++
         }
@@ -30,6 +34,56 @@ foreRequest.onload =  function () {
             break
         }
     }
+}
+
+/* event page*/
+
+var secteven = document.querySelectorAll('section');
+var requestURL='https://byui-cit230.github.io/weather/data/towndata.json';
+
+var request = new XMLHttpRequest();
+    request.open('GET', requestURL);
+    request.responseType = 'json';
+    request.send();
+    request.onload = function() {
+  var towndata = request.response;
+  datasection(towndata);
+  
+  
+}
+function datasection(jsonObj) {
+    var infoevent = jsonObj['towns'];
+    
+    for (var n = 0; n < secteven.length; n++) {
+      for (var i = 0; i < infoevent.length; i++) {
+        var idName = infoevent[i].name.toLowerCase().replace(" ", "");
+        if (idName === secteven[n].id) {
+          var mysection = document.createElement('section');
+          var myH2 = document.createElement('h2');
+          var myPara1 = document.createElement('p');
+          var myPara2 = document.createElement('p');
+          var myPara3 = document.createElement('p');
+           var myImg = document.createElement("img");
+
+           myH2.textContent ='Upcoming event in '+ infoevent[i].name;
+           myPara1.textContent = infoevent[i].events[0];
+           myPara2.textContent = infoevent[i].events[1];
+           myPara3.textContent = infoevent[i].events[2];
+           myImg.src = "images/napfes.jpg";
+           myImg.className = "homeimage";
+
+           mysection.appendChild(myH2);
+          
+           mysection.appendChild(myPara1);
+           mysection.appendChild(myPara2);
+           mysection.appendChild(myPara3);
+           
+           mysection.appendChild(myImg);
+     
+           secteven[n].appendChild(mysection);  
+        }
+    }
+}
 }
 
     /*var icon="http://openweathermap.org/img/w/"+ foreData.list[4].weather[0].icon+".png";
