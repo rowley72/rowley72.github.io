@@ -18,10 +18,25 @@ foreRequest.onload =  function () {
     for (i = 0; i < foreData.list.length; i++) {
         var forcast = foreData.list[i]
         var forcast_date = new Date(forcast.dt_txt)
-
+        
         if (forcast_date.getHours() === 18) {
             weatherTableHeaders[weatherTableCellsCounter].textContent = days[forcast_date.getDay()] + "\n"  + months[forcast_date.getMonth()]+forcast_date.getDate()
-            weatherTableData[weatherTableCellsCounter].textContent=forcast.main.temp;
+           
+            
+
+           var myImg = document.createElement("img");
+           var myPara1 = document.createElement('p');
+
+           myImg.src="http://openweathermap.org/img/w/"+ forcast.weather[0].icon+".png";
+           myImg.alt=forcast.weather[0].description;
+           myPara1.textContent=forcast.main.temp;
+          
+
+           weatherTableData[weatherTableCellsCounter].appendChild(myImg);
+           weatherTableData[weatherTableCellsCounter].appendChild(myPara1);
+          
+           
+           
            
             
     
