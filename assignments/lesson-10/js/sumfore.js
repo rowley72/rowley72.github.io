@@ -8,7 +8,7 @@ weatherRequest.onload =  function () {
 
     console.log(weatherData);
 
-    document.getElementById('htemp').innerHTML=weatherData.main.temp;
+    document.getElementById('htemp').innerHTML=Math.round(weatherData.main.temp);
     document.getElementById('curret').innerHTML=weatherData.weather[0].description;
     document.getElementById('humi').innerHTML=weatherData.main.humidity;
     document.getElementById('wispeed').innerHTML=weatherData.wind.speed;

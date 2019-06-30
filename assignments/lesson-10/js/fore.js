@@ -29,7 +29,7 @@ foreRequest.onload =  function () {
 
            myImg.src="http://openweathermap.org/img/w/"+ forcast.weather[0].icon+".png";
            myImg.alt=forcast.weather[0].description;
-           myPara1.textContent=forcast.main.temp;
+           myPara1.textContent=Math.round(forcast.main.temp)+"°F" ;
           
 
            weatherTableData[weatherTableCellsCounter].appendChild(myImg);
