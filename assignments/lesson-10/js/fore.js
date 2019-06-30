@@ -1,3 +1,5 @@
+/*------5 Day Forecast ---------*/
+
 var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 
@@ -35,12 +37,6 @@ foreRequest.onload =  function () {
            weatherTableData[weatherTableCellsCounter].appendChild(myImg);
            weatherTableData[weatherTableCellsCounter].appendChild(myPara1);
           
-           
-           
-           
-            
-    
-           
             weatherTableCellsCounter++
         }
 
@@ -101,8 +97,5 @@ function dataevent(jsonObj) {
 }
 }
 
-    /*var icon="http://openweathermap.org/img/w/"+ foreData.list[4].weather[0].icon+".png";
-    var desc=foreData.list[4].description;
-    document.getElementById('for-img').setAttribute('src',icon);
-    document.getElementById('for-img').setAttribute('alt',desc);*/
+   
 
