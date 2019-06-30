@@ -385,6 +385,9 @@ font-size: 2.2rem;
 
 
 }
+.imgh{
+  width:80%;
+}
 .bloque{
   width: 100%;
   background-color: rgb(102, 112, 103);
