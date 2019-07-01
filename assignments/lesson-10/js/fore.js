@@ -64,7 +64,7 @@ var request = new XMLHttpRequest();
 }
 function dataevent(jsonObj) {
     var infoevent = jsonObj['towns'];
-    
+    var infodiv= document.createElement('div');
     for (var n = 0; n < secteven.length; n++) {
       for (var i = 0; i < infoevent.length; i++) {
         var idName = infoevent[i].name.toLowerCase().replace(" ", "");
@@ -83,12 +83,12 @@ function dataevent(jsonObj) {
            myImg.src = "images/napfes.jpg";
            myImg.className = "homeimage1";
 
-           mysection.appendChild(myH2);
-          
-           mysection.appendChild(myPara1);
-           mysection.appendChild(myPara2);
-           mysection.appendChild(myPara3);
-           
+           infodiv.appendChild(myH2);
+          ;
+           infodiv.appendChild(myPara1);
+           infodiv.appendChild(myPara2);
+           infodiv.appendChild(myPara3);
+           mysection.appendChild(infodiv);
            mysection.appendChild(myImg);
      
            secteven[n].appendChild(mysection);  
