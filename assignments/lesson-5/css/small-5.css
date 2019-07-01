@@ -146,26 +146,27 @@ align-content: center;
 }
 
 .article{
-background-color:  rgb(179, 175, 127);
-border: 1px solid white;
-margin:20px;
-font-family: Arial, Helvetica, sans-serif;
-line-height: 1.3em;
-padding: .8rem 2%;
-flex: 1 0 15em;
-    
-}
-   .town img{
-       display: block;
-       margin:  10px auto;
-       max-width: 200px;
-       box-shadow: 2px 2px 10px #000;
-       float:right;
-       padding: 10px;
- }
+  background-color:  rgb(179, 175, 127);
+  border: 1px solid white;
+  margin:20px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.3em;
+  padding: .8rem 2%;
+  flex: 1 0 15em;
+      
+  }
+.town img{
+         display: block;
+         margin:  10px auto;
+         max-width: 200px;
+         box-shadow: 2px 2px 10px #000;
+         float:right;
+         padding: 10px;
+   }
 .clearfix{
-    overflow: auto;
-}
+      overflow: auto;
+  }
+  
 
 
    

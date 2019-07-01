@@ -178,27 +178,36 @@ width: 50%;
 align-content: center;
 }
 
+/*-----Article Section-----*/
 .article{
-background-color:  rgb(179, 175, 127);
-border: 1px solid white;
-margin:20px;
-font-family: Arial, Helvetica, sans-serif;
-line-height: 1.3em;
-padding: .8rem 2%;
-flex: 1 0 15em;
+  background-color:  rgb(179, 175, 127);
+  border: 1px solid white;
+  margin: 10px;
+  padding: 10px;
+  overflow: auto;
+  }
+  
+  .art-fix{
+      max-width:70%;
+      float:right;
+      text-align: right;
+     
+  }
+     .art-fix img{
+        
+         margin: 20px;
+         width: 80%;
+         height: 300px;
+         padding: 10px;
+         box-shadow: 2px 2px 10px #000;
+        
+   }
+  .article h2, h5, p{
+    padding-left: 10px;
+    text-align: left;
     
-}
-   .town img{
-       display: block;
-       margin:  10px auto;
-       max-width: 200px;
-       box-shadow: 2px 2px 10px #000;
-       float:right;
-       padding: 10px;
- }
-.clearfix{
-    overflow: auto;
-}
+  }
+  
 
 
    
@@ -397,15 +406,16 @@ font-size: 2.2rem;
   border:2px solid black;
 }
 .bloque1{
+  
   background-color: rgb(102, 112, 103);
   margin: 1rem auto; 
   padding: 10px;
-  border-radius:5px;
   border:2px solid black;
-
+  
 }
 .homeimage1{
   width: 30%;
+  
  
 }
 .homeimage{
