@@ -76,12 +76,12 @@ function dataevent(jsonObj) {
           var myPara3 = document.createElement('p');
            var myImg = document.createElement("img");
 
-           myH2.textContent ='Upcoming event in '+ infoevent[i].name;
+           myH2.textContent ='Upcoming Events in '+ infoevent[i].name;
            myPara1.textContent = infoevent[i].events[0];
            myPara2.textContent = infoevent[i].events[1];
            myPara3.textContent = infoevent[i].events[2];
            myImg.src = "images/napfes.jpg";
-           myImg.className = "homeimage";
+           myImg.className = "homeimage1";
 
            mysection.appendChild(myH2);
           
