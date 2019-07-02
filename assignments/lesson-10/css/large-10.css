@@ -35,6 +35,12 @@
       .inform img {
         width: 50px;
     }
+    .homeimage1{
+      width: 30%;
+    }
+    section div{
+      font-size: 1.2em;
+    }
 }/*end large */
   
 
