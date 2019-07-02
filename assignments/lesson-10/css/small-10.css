@@ -42,7 +42,7 @@ border: 2px yellow;
 }
 /* nav style*/
 nav {	
-  margin: 0 auto;	
+  margin: 0 7px;	
   max-width: 100%; 
   background-color: #000;	}
 
@@ -111,6 +111,7 @@ figcaption{
   text-align: center;
   font-size: .7rem;
 }
+
 .summary {
     position: absolute;
     top: 40px;
@@ -137,6 +138,7 @@ figcaption{
     color: rgb(247, 242, 242);
     
 } 
+/*-----Forecast Section-----*/
 .forecast{
     align-content: center;
     display:none;
@@ -146,17 +148,17 @@ figcaption{
 
 text-align: center;
 }
-   img{
-       width:50%;}
+   
 
 
 table {
-    border-collapse: collapse;
+    border-collapse:separate;
     width: 50%;
     margin: auto;
    
    
   }
+  
   
     th {
     border: 1px solid black;
@@ -189,7 +191,7 @@ align-content: center;
   
   .art-fix{
       max-width:70%;
-      float:right;
+      float: none;;
       text-align: right;
      
   }
@@ -228,7 +230,7 @@ padding: 10px;
 
 }
 .inform img{
-    width:50px;
+    width:30px;
 }
 .inform p{
     font-size: 1em;

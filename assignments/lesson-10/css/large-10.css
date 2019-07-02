@@ -19,6 +19,12 @@
 
     .norm:hover {box-shadow: 0 0 50px #333;}
 
+    .art-fix {
+      max-width: 70%;
+      float: right;
+      text-align: right;
+  }
+
 
     #ftos{
       display:grid; 
@@ -26,6 +32,9 @@
     }
     .bloque{
       width: 95%;}
+      .inform img {
+        width: 50px;
+    }
 }/*end large */
   
 
