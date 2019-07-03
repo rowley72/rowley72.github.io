@@ -4,28 +4,51 @@
 	.mainMenu li { display: block; flex: 1 1 auto; }
     .mainMenu { flex-direction: row; }
   
-    
-    
+    /*---Navigation Section----*/
+    .norm:hover {box-shadow: 0 0 50px #333;}
+     /*---Header Section----*/
+     .imgicon {
+      width: 13%;
+      }
+    /*----forecast Section----*/
       .forecast{
         align-content: center;
         display:block;
     
     } 
 
-    .container{ 
-      display:inline-grid; 
-      grid-template-columns: 1fr 1fr 1fr;
-    }
+    /*---Weather Summary----*/
+    .summary {
+      
+      font-size: .8em;
+  
+      
+  }
 
-    .norm:hover {box-shadow: 0 0 50px #333;}
 
+    /*---Article Section----*/
     .art-fix {
       max-width: 70%;
       float: right;
       text-align: right;
   }
+   /*---Events Section----*/
+   .homeimage1{
+    width: 30%;
+  }
+  section div{
+    font-size: 1.2em;
+  }
+
+/*---Gallery Page----*/
+    .container{ 
+      display:inline-grid; 
+      grid-template-columns: 1fr 1fr 1fr;
+    }
 
 
+
+/*---Home Page----*/
     #ftos{
       display:grid; 
       grid-template-columns: 1fr 1fr 1fr;
@@ -35,17 +58,8 @@
       .inform img {
         width: 50px;
     }
-    .homeimage1{
-      width: 30%;
-    }
-    section div{
-      font-size: 1.2em;
-    }
-    .imgicon {
-      width: 13%;
-      
-      
-  }
+   
+   
 }/*end large */
   
 
