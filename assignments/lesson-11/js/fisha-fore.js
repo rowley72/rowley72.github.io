@@ -106,12 +106,15 @@ function dataevent(jsonObj) {
           var myPara1 = document.createElement('p');
           var myPara2 = document.createElement('p');
           var myPara3 = document.createElement('p');
+          var myPara4 = document.createElement('p');
+
            var myImg = document.createElement("img");
 
            myH2.textContent ='Upcoming Events in '+ infoevent[i].name;
            myPara1.textContent = infoevent[i].events[0];
            myPara2.textContent = infoevent[i].events[1];
            myPara3.textContent = infoevent[i].events[2];
+           myPara4.textContent = infoevent[i].events[3];
            myImg.src = "images/fish.jpg";
            myImg.className = "homeimage1";
 
@@ -120,6 +123,7 @@ function dataevent(jsonObj) {
            infodiv.appendChild(myPara1);
            infodiv.appendChild(myPara2);
            infodiv.appendChild(myPara3);
+           infodiv.appendChild(myPara4);
            mysection.appendChild(infodiv);
            mysection.appendChild(myImg);
      
