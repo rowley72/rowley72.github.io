@@ -1,0 +1,161 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+    <meta name="author" content="Briggite Rowley| CIT 230 BYUI">
+    <meta name="description" content="The Weather Site Project">
+    <title> Weather Forecast Site </title>
+    <link  href="https://fonts.googleapis.com/css?family=Courgette%7cKalam" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/small-11.css">
+    <link rel="stylesheet" href="css/medium-11.css">
+    <link rel="stylesheet" href="css/large-11.css">
+    
+
+</head>
+
+<body>
+    <div id="content">
+        <header>
+            <img class="imgicon" src="images/kweather.png" alt="The world logo">
+        <div class="headings">
+            <h1>Sunny or Not Forecast</h1>
+       <div class="motto">
+       <h2> Acurate Weather Conditions</h2>
+           </div>
+        </div>
+        </header>
+       <nav class="clearfix">
+           
+           <ul class="mainMenu">
+                <li> <a href="#" onclick="toggleMenu()"> &#9776;Menu</a></li>
+                <li> <a href="home.html">HOME</a></li>
+                <li> <a href="preston-11.html">PRESTON</a></li>
+                <li> <a class="active" href="sodaspring">SODA SPRINGS</a></li>
+                <li> <a href="fishhaven.html">FISH HAVEN</a></li>
+                <li> <a href="stormcenter.html">STORM CENTER</a></li>
+                <li> <a href="gallery-7.html">GALLERY</a></li>
+
+           </ul>
+            </nav>
+    <main>
+            <h3>Preston Idaho</h3>
+             <div class="firstcont">
+                 <figure class="photo">
+                    <img src="images/sodaspring1.jpg" alt="Soda Spring image" sizes="100vw"
+                        srcset="images/sodaspring1.jpg 600w,images/sodaspring1.jpg 800w">
+                    <figcaption>
+                        Preston Idaho
+                    </figcaption>
+
+                 </figure>
+                 
+            <section class="summary">
+                    <h4><span class="underline"> Weather Summary</span></h4>
+                       <p>Currently: <span id="curret"></span></p>
+                       <p>Temperature: <span id="htemp"></span> &#8457; </p>
+                       <p>Wind Chill: <span id= "windchill"></span> &#8457; </p>
+                       <p>Humidity: <span id="humi"></span> % </p>
+                       <p>Wind Speed: <span id="wispeed"></span> mph</p>
+
+            </section>
+                       
+                  
+                   <section class="forecast">
+
+                    <h2 id="Foretitle"> 5 Day Forecast</h2>
+
+                    <table id="weatherinfo">
+                            <tr>
+                              <th></th>
+                              <th></th>
+                              <th></th>
+                              <th></th>
+                              <th></th>
+
+                            </tr>
+                            <tr class="icon">
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+                            
+                          </table>
+                </section>
+                       
+                   
+                <article class="article" >
+                        <div class="soda-art" >
+                       
+                         <img class="sodaimg"  src="images/sodasprart1.jpg" alt="image of the article"> 
+                           
+                        </div>
+                      
+                       <h2> Soda Springs, Idaho</h2>
+                       <h5> From Wikipedia</h5>
+                       
+                      
+                            <p>The city is named for the hundreds of natural springs of carbonated water that are located in and around the city.
+                             The springs were well known to Native Americans and were a famous landmark along the Oregon Trail in the middle 19th century.
+                              Today the city is also known as the location of the Soda Springs Geyser, which was unleashed in 1934 when "town fathers" were looking for hot water for a "hot pool" bathing attraction. 
+                              Instead they drilled into a chamber of highly pressurized carbon dioxide gas and cold water and the geyser was released.<br> 
+                              <br>After running for weeks, and flooding the downtown area, it was capped and manually released when requested as a tourist attraction. 
+                              Now it is let loose every hour on the hour by a timed release valve. Its height and volume have not decreased after many years. There are viewing platforms at either end of the travertine mound where the geyser erupts. 
+                              Interpretive signs are located on the platforms explaining this phenomenon. 
+                            </p>
+                    
+                        
+                   </article>
+               
+                       
+                    <section class="bloque1" id="sodasprings">
+                        
+                    
+                    </section>
+
+
+                      
+                   <aside class="section2">
+
+                            <div class="inform">
+                            <h4>Sunny or Not Forecast</h4>
+                            <p>30 N 1 st E<br>
+                            Preston, ID 83263</p>
+                            <p> 999-9999-99</p>
+                             <p>SunnyOrnot@gmail.com</p>
+                        <img src="images/facebook-128.png" alt="icon image">
+                        <img src="images/twitter1.png" alt="icon image">
+                        <img src="images/insta-1png.png" alt="icon image">
+                        <img src="images/pinterest-1.png" alt="icon image">
+                        
+                            </div >
+                            <div class="right">
+                       
+                       <img class="img3" src="images/radar2.jpg" alt="map">
+                      
+                             </div>
+                   </aside>
+       </main>
+       <footer>
+           <div>
+            <p id="info">&copy; 2019 All Rights Reserved  |  SunnyOrnot Forecast |<span id="currentdate"></span></p>
+            </div>
+            
+           
+       </footer>
+
+    </div>
+    <!--Script for Navigation and Footer Date-->
+    <script src="js/currentDate.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/sumfore.js"></script>
+    <script src="js/fore.js"></script>
+    <script src="js/soda-fore.js"></script>
+
+   </body>
+</html>

@@ -1,0 +1,83 @@
+/* Media Query for large+ screens */
+@media only screen and (min-width:1000px) {
+  .mainMenu li:first-child { display: none;	}
+	.mainMenu li { display: block; flex: 1 1 auto; }
+    .mainMenu { flex-direction: row; }
+  
+    /*---Navigation Section----*/
+    .norm:hover {box-shadow: 0 0 50px #333;}
+     /*---Header Section----*/
+     .imgicon {
+      width: 13%;
+      }
+    /*----forecast Section----*/
+      .forecast{
+        align-content: center;
+        display:block;
+    
+    } 
+
+    /*---Weather Summary----*/
+    .summary {
+      
+      font-size: .8em;
+  
+      
+  }
+
+
+    /*---Article Section----*/
+    .art-fix {
+      max-width: 70%;
+      float: right;
+      text-align: right;
+  }
+  .soda-art{
+  max-width: 70%;
+  float: right;
+  text-align: right;}
+ 
+   /*---Events Section----*/
+   .homeimage1{
+    width: 30%;
+  }
+  section div{
+    font-size: 1.2em;
+  }
+
+  .img3{
+    width:70%;
+  }
+  /*----footer------*/
+  .section2 {
+    flex-flow: row;
+    
+    justify-content: space-evenly;
+  }
+
+/*---Gallery Page----*/
+    .container{ 
+      display:inline-grid; 
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
+
+/*---Home Page----*/
+    #ftos{
+      display:grid; 
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    .bloque{
+      width: 95%;}
+      .inform img {
+        width: 50px;
+    }
+   
+   
+}/*end large */
+  
+
+
+
+
