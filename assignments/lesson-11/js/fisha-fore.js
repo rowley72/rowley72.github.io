@@ -1,5 +1,5 @@
 var weatherRequest = new XMLHttpRequest();
-var apiURLstring='https://api.openweathermap.org/data/2.5/weather?id=5607916&units=imperial&APPID=49bba8f65e06218978ae5717239ff8c0';
+var apiURLstring='https://api.openweathermap.org/data/2.5/weather?id=5585010&units=imperial&APPID=49bba8f65e06218978ae5717239ff8c0';
 weatherRequest.open('Get',apiURLstring,true);
 weatherRequest.send();
 
@@ -41,7 +41,7 @@ var weatherTableHeaders = weatherTableRows[0].cells
 var weatherTableData = weatherTableRows[1].cells
 
 var foreRequest = new XMLHttpRequest();
-var apiURLstring='https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&APPID=49bba8f65e06218978ae5717239ff8c0';
+var apiURLstring='https://api.openweathermap.org/data/2.5/forecast?id=5585010&units=imperial&APPID=49bba8f65e06218978ae5717239ff8c0';
 foreRequest.open('Get', apiURLstring, true);
 foreRequest.send();
 
@@ -112,7 +112,7 @@ function dataevent(jsonObj) {
            myPara1.textContent = infoevent[i].events[0];
            myPara2.textContent = infoevent[i].events[1];
            myPara3.textContent = infoevent[i].events[2];
-           myImg.src = "images/sodaimg-event.jpg";
+           myImg.src = "images/fish.jpg";
            myImg.className = "homeimage1";
 
            infodiv.appendChild(myH2);
