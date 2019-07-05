@@ -395,12 +395,12 @@ form .row input, form .row select{
   grid-template-columns: 1fr 1fr 1fr; 
   grid-gap: 1rem;
   align-items: center;
-  max-width: 1048px;}
-  /*display: flex;
-  justify-content: center;
+  max-width: 1048px;
+}
+  
   
  
-}*/
+
 #home {
 text-align: center;
 font-family: Georgia, 'Times New Roman', Times, serif;
@@ -412,7 +412,7 @@ font-size: 2.2rem;
   width:100%;
 }
 .bloque{
-  width: 100%;
+  width: 70%;
   background-color: rgb(102, 112, 103);
   margin: 1rem auto; 
   padding: 10px;
@@ -473,7 +473,6 @@ h6{
         grid-template-columns: 1fr ;
 
       }
-      .bloque{
-        width: 50%; }
+      
   
 }

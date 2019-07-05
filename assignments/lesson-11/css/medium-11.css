@@ -12,11 +12,11 @@
     
     #ftos{
       display:grid;
-      grid-template-columns: 1fr  ;
+      grid-template-columns: 1fr 1fr ;
       
     }
     .bloque{
-      width: 50%;}
+      width: 80%;}
 
       .homeimage{
         width:100%;
