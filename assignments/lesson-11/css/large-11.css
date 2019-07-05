@@ -45,8 +45,13 @@
     font-size: 1.2em;
   }
 
-  .img3{
-    width:70%;
+  iframe{
+    margin: 0;
+    width:350px;
+    height:250px;
+      box-shadow: 2px 2px 10px #000;
+     
+      padding: 10px;
   }
   /*----footer------*/
   .section2 {
