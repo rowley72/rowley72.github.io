@@ -1,0 +1,38 @@
+/* medium and up views */
+@media only screen and (min-width:600px) {
+	.imgicon {
+    width: 10%;
+    position: absolute;
+    
+    }
+    header {
+      display:flex;
+      flex-direction: row;
+      margin: 0 7px ;
+      }
+      .right{
+
+        width: 80%;
+      }
+    .container{ 
+      display:inline-grid;
+        grid-template-columns: 1fr 1fr;
+       
+      }
+      figure img{
+        width:100%;
+    } 
+    
+    #ftos{
+      display:grid;
+      grid-template-columns: 1fr 1fr ;
+      
+    }
+    .bloque{
+      width: 80%;}
+
+      .homeimage{
+        width:100%;
+       
+      }
+}

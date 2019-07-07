@@ -1,0 +1,193 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+    <meta name="author" content="Briggite Rowley| CIT 230 BYUI">
+    <meta name="description" content="The Weather Site Project">
+    <title> Weather Forecast Site </title>
+    <link  href="https://fonts.googleapis.com/css?family=Courgette%7cKalam" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/small-11.css">
+    <link rel="stylesheet" href="css/medium-11.css">
+    <link rel="stylesheet" href="css/large-11.css">
+    
+
+</head>
+
+<body>
+        <div id="content">
+                <header>
+                    <img class="imgicon" src="images/kweather.png" alt="The world logo">
+                <div class="headings">
+                    <h1>Sunny or Not Forecast</h1>
+               <div class="motto">
+               <h2> Accurate Weather Conditions</h2>
+                   </div>
+                </div>
+                </header>
+               <nav class="clearfix">
+                   
+                   <ul class="mainMenu">
+                        <li> <a href="#" onclick="toggleMenu()"> &#9776;Menu</a></li>
+                        <li> <a href="home.html">HOME</a></li>
+                        <li> <a href="preston.html">PRESTON</a></li>
+                        <li> <a href="sodasprings.html">SODA SPRINGS</a></li>
+                        <li> <a href="fishhaven.html">FISH HAVEN</a></li>
+                        <li> <a class="active" href="stormcenter.html">STORM CENTER</a></li>
+                        <li> <a href="gallery.html">GALLERY</a></li>
+        
+                   </ul>
+                    </nav>
+
+        <main id="field">
+                <h2 id="titleform">STORM CENTER FORM</h2>
+                          
+                 <form  method= "get" action="thanksletter.html">
+                     <fieldset>
+                         <legend>Personal Information</legend>
+                        <div class="row">
+                          
+                            <label for="fname">Full Name*</label>
+                            <input type="text" id="fname" name="fullname" pattern="[a-zA-Z ]{5,}" required >
+                         
+                        </div>
+                        <div class="row">
+                            <label for="emailaddress">Email Address</label>
+                            <input type="text" id="emailaddress" name="email address" placeholder="someone@yahoo.com">
+                         </div>
+                        
+                        <div class="row">
+                                
+                                <label for="pnumber">Phone Number*</label>
+                                <input type="tel" id="pnumber" name="phone" placeholder="1234567989" pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                                required>
+                        </div>
+                        <div class="row">
+                              <label for="Zipcode">Zip Code*</label>
+                              <input type="number" id="Zipcode" name="zipcode" pattern="[0-9]*" minlength="5" max="99999" required >
+                             
+                        </div>
+                        
+                    </fieldset>
+                    <fieldset>
+                            <legend>Storm Information</legend>
+                    <div class="row">
+                            
+                            <label for="stdate">Storm Date</label>
+                            <input type="Date" id="stdate" name="storm date">
+                            
+                          </div>
+                          <div class="row">
+                              
+                                  <label for="stormtype">Storm Type</label>
+                                    <input list="stormtypes"  name="stormtype" id="stormtype">
+                                <datalist id="stormtypes">
+                                    <option value="Flash Flood">
+                                     <option value="Hail">
+                                     <option value="Hurricane">
+                                    <option value="Thunderstorm">
+                                    <option value="Tornado">
+
+                                  </datalist>
+                                
+                              </div>
+                              <div class="row">
+                                    
+                                      <label for="rating"> Storm Severity<br><br>Rating (1 to 10):</label>
+                                    <input type="range" id="rating" value="5" min="1" max="10" step="1"
+                                      oninput="adjustRating(this.value)"
+                                     onchange="adjustRating(this.value)">
+                                     <span id="ratingvalue">5</span><br>
+                                    
+                                  </div>
+                                  <div class="row">
+                                  <label>Storm Region
+                                        <select name="Subject">
+                                        <option value="">Select Region</option>
+                                        <option value="Preston">Preston</option>
+                                        <option value="Sodaspring">Soda Springs</option>
+                                        <option value="FishHea">Fish Havens</option>
+                                    </select>
+                                  </label>
+                                  </div>
+                                  <div class="row">
+                                        User in-danger level
+                                  </div>
+                                  
+                                    <div class="radiob">
+                                        <input type="radio" id="audience1" name="audience" value="yes" checked>
+                                        <label for="audience1">Yes</label>
+                                       
+                                    </div>
+                                    <div class="radiob">
+                                        <input type="radio" id="audience2" name="audience" value="maybe" checked>
+                                        <label for="audience2">Maybe</label>
+                                      
+                                  </div>
+                                  <div class="radiob">
+                                    <input type="radio"  id="audience3" name="audience" value="no" checked>
+                                  <label for="audience3">No</label>
+                                      
+                                  </div>
+                        </fieldset>
+                        <fieldset>
+                                <legend>Additional Information</legend>
+                        <div class="row">
+                          <div>
+                            <label for="textarea">Comments:</label>
+                          </div>
+                          <div>
+                          
+                            <textarea id="textarea" name="textarea" class="textar" placeholder="Please enter your comments here" ></textarea>
+                          </div>
+                        </div>
+                    </fieldset>
+                        <div >
+                          <input type="submit" value="submit form" class="buttom">
+                        </div>
+                        
+                        </form>
+
+                        <aside class="section2">
+
+                            <div class="inform">
+                                <h4>Sunny or Not Forecast</h4>
+                                <p>30 N 1 st E<br>
+                                Preston, ID 83263</p>
+                                <p> 208-9865-9388</p>
+                                 <p>SunnyOrnot@gmail.com</p>
+                                 <a href="https://www.facebook.com"><img src="images/facebook-128.png" alt="icon image"></a>
+                                 <a href="https://www.twitter.com"> <img src="images/twitter1.png" alt="icon image"></a>
+                                 <a href="https://www.instagram.com"> <img src="images/insta-1png.png" alt="icon image"></a>
+                                 <a href="https://www.pinterest.com"><img src="images/pinterest-1.png" alt="icon image"></a>
+                            
+                                </div >
+                                <div class="right">
+                           
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5735946.430526316!2d-118.63279897175991!3d45.41427797837083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5358ffa885e499e9%3A0xd06b300515f78758!2sIdaho!5e0!3m2!1sen!2sus!4v1562301376945!5m2!1sen!2sus"  style="border:0" allowfullscreen></iframe>
+                          
+                                 </div>
+                      </aside>
+                        
+                      
+        </main>
+    
+  <footer>
+                <div>
+                 <p id="info">&copy; 2019 All Rights Reserved  |  SunnyOrnot Forecast |<span id="currentdate"></span><br>Briggite Rowley | CIT 230 <a href="http://www.byui.edu/?cid=hli:114">BYUI.edu</a></p>
+                 </div>
+                 
+                
+            </footer>
+     
+         </div>
+         <!--Script for Navigation and Footer Date-->
+         <script src="js/currentDate.js"></script>
+         <script src="js/hamburger.js"></script>
+         <script src="js/rating.js"></script>
+        
+        </body>
+
+</html>

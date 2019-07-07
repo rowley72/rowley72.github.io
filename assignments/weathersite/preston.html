@@ -1,0 +1,168 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+    <meta name="author" content="Briggite Rowley| CIT 230 BYUI">
+    <meta name="description" content="The Weather Site Project">
+    <title> Weather Forecast Site </title>
+    <link  href="https://fonts.googleapis.com/css?family=Courgette%7cKalam" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/small-11.css">
+    <link rel="stylesheet" href="css/medium-11.css">
+    <link rel="stylesheet" href="css/large-11.css">
+    
+
+</head>
+
+<body>
+    <div id="content">
+        <header>
+            <img class="imgicon" src="images/kweather.png" alt="The world logo">
+        <div class="headings">
+            <h1>Sunny or Not Forecast</h1>
+       <div class="motto">
+       <h2> Accurate Weather Conditions</h2>
+           </div>
+        </div>
+        </header>
+       <nav class="clearfix">
+           
+           <ul class="mainMenu">
+                <li> <a href="#" onclick="toggleMenu()"> &#9776;Menu</a></li>
+                <li> <a href="home.html">HOME</a></li>
+                <li> <a class="active" href="preston.html">PRESTON</a></li>
+                <li> <a href="sodasprings.html">SODA SPRINGS</a></li>
+                <li> <a href="fishhaven.html">FISH HAVEN</a></li>
+                <li> <a href="stormcenter.html">STORM CENTER</a></li>
+                <li> <a href="gallery.html">GALLERY</a></li>
+
+           </ul>
+            </nav>
+    <main>
+            <h3>Preston Idaho</h3>
+             <div class="firstcont">
+                 <figure class="photo">
+                    <img src="images/prston1.jpg" alt="Preston image" sizes="100vw"
+                        srcset="images/prston1.jpg 600w,images/prston1.jpg 800w">
+                    <figcaption>
+                        Preston Idaho
+                    </figcaption>
+
+                 </figure>
+                
+                 
+            <section class="summary">
+                    <h4><span class="underline"> Weather Summary</span></h4>
+                       <p>Currently: <span id="curret"></span></p>
+                       <p>Temperature: <span id="htemp"></span> &#8457; </p>
+                       <p>Wind Chill: <span id= "windchill"></span> &#8457; </p>
+                       <p>Humidity: <span id="humi"></span> % </p>
+                       <p>Wind Speed: <span id="wispeed"></span> mph</p>
+
+            </section>
+                      </div> 
+                  
+                   <section class="forecast">
+
+                    <h2 id="Foretitle"> 5 Day Forecast</h2>
+
+                    <table id="weatherinfo">
+                            <tr>
+                              <th></th>
+                              <th></th>
+                              <th></th>
+                              <th></th>
+                              <th></th>
+
+                            </tr>
+                            <tr class="icon">
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+                            
+                          </table>
+                </section>
+                       
+                   
+                <article class="article" >
+                        <div class="art-fix" >
+                       
+                         <img  src="images/article-preston1.jpg" alt="image of the article"> 
+                           
+                        </div>
+                      
+                       <h2> Preston Endures Its Fame 10 Years Later</h2>
+                       <h5> BY MIKE MCKENNA</h5>
+                       
+                      
+                            <p>For the most part, there’s nothing particularly special about Preston, Idaho.
+                            But the pretty and predominantly Mormon town of 5,204 found its own 15 minutes 
+                            of fame thanks to a hit Hollywood movie; a fame that appears to be lingering.
+                             Even though the locals may be a bit tired of it all, being home to “Napoleon Dynamite” 
+                             will long be Preston’s biggest claim to fame.<br>
+
+                        <br>It’s been a decade since “Napoleon Dynamite” found surprising success at theaters nationwide.
+                             Written and directed by former Preston residents Jared Hess and his brother Jerusha,
+                              the film’s quirky humor, memorable one-liners and odd but endearing characters instantly resonated with audiences.<br>
+
+                             <br> The movie has become a cult classic. Its 10th anniversary celebration last summer received loads of press and even included 
+                              the unveiling of a Napoleon Dynamite statue, wearing a “Vote for Pedro” shirt, of course, in Los Angeles.  
+                        The film’s widespread popularity instantly made Preston a tourist destination. The town even held a “Napoleon Dynamite Festival” 
+                            for a few years before interest died down.
+                        </p>
+                    
+                        
+                   </article>
+               
+                       
+                    <section class="bloque1" id="preston">
+                        
+                    
+                    </section>
+
+
+                      
+                   <aside class="section2">
+
+                            <div class="inform">
+                            <h4>Sunny or Not Forecast</h4>
+                            <p>30 N 1 st E<br>
+                            Preston, ID 83263</p>
+                            <p> 208-9865-9388</p>
+                             <p>SunnyOrnot@gmail.com</p>
+                        <a href="https://www.facebook.com"><img src="images/facebook-128.png" alt="icon image"></a>
+                        <a href="https://www.twitter.com"> <img src="images/twitter1.png" alt="icon image"></a>
+                        <a href="https://www.instagram.com"> <img src="images/insta-1png.png" alt="icon image"></a>
+                        <a href="https://www.pinterest.com"><img src="images/pinterest-1.png" alt="icon image"></a>
+                        
+                            </div >
+                            <div class="right">
+                       
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.72628259405!2d-111.91534452849267!3d42.09980531196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C+ID+83263!5e0!3m2!1sen!2sus!4v1562294041170!5m2!1sen!2sus"   style="border:0" allowfullscreen></iframe>
+                      
+                             </div>
+                   </aside>
+       </main>
+       <footer>
+           <div>
+            <p id="info">&copy; 2019 All Rights Reserved  |  Sunny Or not Forecast |<span id="currentdate"></span><br>Briggite Rowley | CIT 230 <a href="http://www.byui.edu/?cid=hli:114">BYUI.edu</a> </p>
+            </div>
+            
+           
+       </footer>
+
+    </div>
+    <!--Script for Navigation and Footer Date-->
+    <script src="js/currentDate.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/sumfore.js"></script>
+    <script src="js/fore.js"></script>
+
+   </body>
+</html>
