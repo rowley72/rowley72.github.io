@@ -8,8 +8,11 @@
     .norm:hover {box-shadow: 0 0 50px #333;}
      /*---Header Section----*/
      .imgicon {
-      width: 13%;
+      width: 10%;
+      position: absolute;
+      left: 250px;
       }
+
     /*----forecast Section----*/
       .forecast{
         align-content: center;

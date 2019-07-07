@@ -7,26 +7,27 @@
 }
 
 header {
+  display:flex;
+  flex-direction: row;
 	margin: 0 7px ;
 	background-color:rgb(231, 207, 69);
 	border: 1px solid #bbb;
-	box-shadow: 0 0 30px #777;
-	text-align: center;
+	
+	
 }
 
-header img{
-  float: left;
 
 
-}
+
 
 .headings {
-display: flex;
-flex-direction:column;
-justify-content:center;
+
+
+width: 100%;
 margin: 10px;
 font-family:"Courgette", Charcoal, sans-serif;
 font-size: 2em;
+text-align: center;
 
 }
 .motto h2{
@@ -35,6 +36,7 @@ font-size: .6em;
 }
 .imgicon {
 width: 30%;
+height: 130px;
 
 
 
