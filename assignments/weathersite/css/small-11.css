@@ -217,6 +217,9 @@ align-content: center;
   .article  p {
     padding-left: 10px;
     text-align: left;
+    font-size: 1em;
+    line-height: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
     
   }
   
@@ -253,7 +256,11 @@ margin:10px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+  h4{
+    font-size: .5rem;
+    font-weight: bold;
     
+  }  
 
 
 iframe{
