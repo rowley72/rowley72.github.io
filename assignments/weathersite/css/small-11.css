@@ -311,7 +311,7 @@ main{
 /*-------------------Storm Center Form------------*/
 #field {
     text-align: inherit;
-    padding: 0 2%;
+    padding: 0 5%;
     min-height: 20rem;
 }
 form fieldset{
