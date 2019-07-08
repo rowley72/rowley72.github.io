@@ -119,14 +119,14 @@ figcaption{
     background-color: rgb(112, 138, 113);
     border: 1px solid black; 
     padding: .4rem;
-    font-size: .5em;
+   
 
     
 }
 .summary p{
   text-align: left;
   font-family: Georgia, 'Times New Roman';
-
+  font-size: .8em;
 }
 
 .underline{
@@ -256,7 +256,7 @@ margin:10px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-  h4{
+  .inform h4{
     font-size: 1.2rem;
     font-weight: bold;
 
