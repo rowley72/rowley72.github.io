@@ -5,11 +5,7 @@
     position: absolute;
     
     }
-    header {
-      display:flex;
-      flex-direction: row;
-      margin: 0 7px ;
-      }
+    
       .right{
 
         width: 80%;
