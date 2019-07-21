@@ -1,0 +1,21 @@
+@media only screen and (min-width:1000px) {
+    .menubar li:first-child { display: block;	}
+      .menubar li { display: block; flex: 1 1 auto; }
+      .menubar { flex-direction: row; }
+      #dismenu{
+          display: none;
+      }
+      /*---Navigation Section----*/
+      /*.norm:hover {box-shadow: 0 0 50px #333;}*/
+      .image-hero{
+        width:100%;
+    }
+    /*------Temple Page------*/
+    .templimg-p{
+        width: 100%;
+    }
+    .box1-temple{
+        grid-column: 1/3;
+        grid-row: 1/3;
+    }
+}

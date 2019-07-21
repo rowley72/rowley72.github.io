@@ -1,0 +1,314 @@
+body{
+    background-color:white;
+    margin: 10px;
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    left: 40px;
+    top: 10px
+
+
+}
+h2{
+    font-family: fantasy;
+    text-align: center;
+    font-weight: bold;
+}
+/*--------Navigation Section-------*/
+nav {	
+    justify-content: space-around;
+    margin: 0 7px;
+    max-width: 100%;
+    background-color: #681f28;
+    display: flex;
+    flex-direction: row;
+    flex-flow: nowrap;
+}
+  
+  .menubar { 
+    list-style: none; 
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+  
+  }
+  .menubar li:first-child { 
+    display: block;
+  }
+  .menubar li { 
+    display: none;}
+  
+  .menubar a {	
+    display: block;	
+    color:white; 
+    padding: .75rem;	
+    text-align: center;	
+    text-decoration: none;
+    width: 150px;
+  }
+  .menubar a:hover {	color: #000; 
+    background-color: rgb(177, 189, 174); 
+    font-weight: 700;	}
+  
+  
+  li a:hover:not(.active) {
+    background-color: rgb(201, 187, 172);
+  }
+  
+  .active {
+    background-color:rgb(121, 104, 101);
+  }
+  
+  .responsive li { display: block; }
+  ul li ul.dropdown{
+    min-width: 210px; /* Set width of the dropdown */
+    background:rgba(194, 69, 98, 0.5);
+    display: none;
+    position: absolute;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+ul li:hover ul.dropdown{
+    display: block;	/* Display the dropdown */
+}
+ul li ul.dropdown li{
+    display: block;
+}
+/*--------------------*/
+
+#logo-img{
+    
+    margin-left: 10px;
+    width:10%;
+    height: 80px;;
+}
+h3{
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    color: white;
+    font-family: inherit;
+    font-size: 2rem;
+}
+form{
+    background-color: rgb(12, 11, 11,.5);
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    padding: 10px;
+    position: absolute;
+    left: 400px;
+    top: 400px;
+}
+.form{
+   
+    padding-top:1rem;
+    color:black;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 50%;
+    
+}
+.form-1{
+    padding-top:1rem;
+    color:black;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 30%;
+    
+
+}
+#form-2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+form .form-1 input, form .form-1 select{
+    display:flex;
+    font-size: 1rem;
+    border:solid 1px rgb(22, 22, 22);
+    border-radius: 3px;
+    flex-direction: row;
+    
+    width:80%;
+    
+    background-color: rgb(239, 243, 241);
+
+}
+form .form input, form .form select{
+    display:flex;
+    font-size: 1rem;
+    border:solid 1px rgb(22, 22, 22);
+    border-radius: 3px;
+    flex-direction: row;
+    
+    width:95%;
+    
+    background-color: rgb(239, 243, 241);
+    
+}
+
+.buttom{
+    
+    background-color:white;
+    color:black;
+    margin:2%;
+    padding: 5px;
+   
+    width: 100%;
+    cursor: pointer;
+}
+.buttom:hover {
+   background-color: rgb(106, 150, 102);
+ }
+.image-hero{
+    width:100%;
+}
+.trafor{
+    position: absolute;
+}
+.tempinf{
+    display: flex;
+    flex-direction: row;
+}
+.tempinf > div {
+    
+    color: white;
+    width: 25%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+.temple{
+    width:100%;
+}
+.ads{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+.ads > div {
+    
+    color: white;
+    width: 25%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+.secimg{
+    width: 100%;
+}
+/*-------Information Section-----*/
+
+
+/*--------------Footer Section---------*/
+.inform-2 img {
+    width: 30px;
+}
+h5{
+    font-family: fantasy;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-align: center'
+}
+aside{
+background-color: rgb(5, 5, 5);
+border:solid black 2px;
+display: flex;
+flex-flow: row nowrap;
+justify-content: space-evenly; 
+border: 2px solid black;
+padding: 10px;
+margin:10px;
+
+}
+.inform-1{
+    font-family: fantasy;
+    text-align: center;
+    color: white;
+  
+}
+.inform-2{
+    font-family: fantasy;
+    text-align: center;
+    color: white;
+    width:30%;
+}
+.inform-3{
+    background-color: #681f28;
+    padding:10px;
+    margin: 10px;
+    text-align: center;
+}
+/*---------TemplePage-------*/
+.tem-info-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 1em;
+    background-color: darksalmon;
+    justify-items: stretch;
+    align-items: stretch;
+    padding: 30px;
+    margin: 20px;
+
+}
+.temple-infor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 4em;
+    background-color: rgb(201, 186, 181);
+    justify-items: stretch;
+    align-items: stretch;
+    padding: 30px;
+    margin: 20px;}
+.temple-infor > div{
+    border: solid black 2px;
+}
+.temple-infor-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 4em;
+    background-color: rgb(201, 186, 181);
+    justify-items: stretch;
+    align-items: stretch;
+    padding: 30px;
+    margin: 20px;
+}
+.summary {
+    position: absolute;
+    top: 40px;
+    left: 120px;
+    margin:0;
+    background-color: rgb(112, 138, 113);
+    border: 1px solid black; 
+    padding: .4rem;
+   
+
+    
+}
+.summary p{
+  text-align: left;
+  font-family: Georgia, 'Times New Roman';
+  font-size: .8em;
+}
+
+.underline{
+
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1rem;
+    color: rgb(247, 242, 242);
+    
+} 
