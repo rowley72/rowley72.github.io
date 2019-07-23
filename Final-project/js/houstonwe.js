@@ -32,4 +32,61 @@ document.getElementById('windchill').innerHTML = windchilFR;
 
 }
 
+/* event page*/
+
+var divsec = document.querySelectorAll('divs');
+var requestURL='https://rowley72.github.io/Final-project/directory.json';
+
+var request = new XMLHttpRequest();
+    request.open('GET', requestURL);
+    request.responseType = 'json';
+    request.send();
+    request.onload = function() {
+  var templdata = request.response;
+  datasche(templdata);
+  
+  
+}
+function datasche(jsonObj) {
+    var infoevent = jsonObj['temples'];
+    var infodiv= document.createElement('div');
+    for (var n = 0; n < divsec.length; n++) {
+      for (var i = 0; i < infoevent.length; i++) {
+        var idName = infoevent[i].name.toLowerCase().replace(" ", "");
+        if (idName === divsec[n].id) {
+          var mysection = document.createElement('divs');
+          var myH2 = document.createElement('h2');
+          var myPara1 = document.createElement('p');
+          var myPara2 = document.createElement('p');
+          var myPara3 = document.createElement('p');
+          var myPara4 = document.createElement('p');
+          var myPara5 = document.createElement('p');
+          var myPara6 = document.createElement('p');
+         
+          
+
+           myH2.textContent ='Temple Closures '+ infoevent[i].name;
+           myPara1.textContent = infoevent[i].ClosuresDates[0];
+           myPara2.textContent = infoevent[i].ClosuresDates[1];
+           myPara3.textContent = infoevent[i].ClosuresDates[2];
+           myPara4.textContent = infoevent[i].ClosuresDates[3];
+           myPara5.textContent = infoevent[i].ClosuresDates[4];
+           myPara6.textContent = infoevent[i].ClosuresDates[5];
+
+           infodiv.appendChild(myH2);
+          ;
+           infodiv.appendChild(myPara1);
+           infodiv.appendChild(myPara2);
+           infodiv.appendChild(myPara3);
+           infodiv.appendChild(myPara4);
+           infodiv.appendChild(myPara5);
+           infodiv.appendChild(myPara6);
+           mysection.appendChild(infodiv);
+          
+     
+           divsec[n].appendChild(mysection);  
+        }
+    }
+}
+}
 
