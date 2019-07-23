@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
     <meta name="author" content="Briggite Rowley| CIT 230 BYUI">
     <meta name="description" content="Final Project">
-    <title> Temple Inn & Suites Site </title>
+    <title> Temple Inn & Suites Site|Houston Temple </title>
     <link  href="https://fonts.googleapis.com/css?family=Courgette%7cKalam" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <link rel="stylesheet" href="css/small-final.css">
@@ -17,6 +17,7 @@
 </head>
 
 <body>
+    <!--Heather Section-->
     <heather class="nav-head">
         <div id="logo">
 
@@ -25,7 +26,7 @@
             <h2>Temple Inn<br> &<br> Suites</h2>
         </div>
     </heather>
-   
+   <!--Navigation Section-->
     <nav>
            
             <ul class="menubar">
@@ -35,7 +36,7 @@
                         <ul class="dropdown">
                             <li><a href="houston-temple.html">Houston </a></li>
                             <li><a href="stGeorge.temple.html">St. George </a></li>
-                            <li><a href="ockland-temple.html">Ockland</a></li>
+                            <li><a href="ockland-temple.html">Oakland</a></li>
                             <li><a href="saltLcit-temple.html">Salt Lake City</a></li>
                         </ul>
                     </li>
@@ -53,101 +54,116 @@
             
             
 <main>
-    <div>
-            <h3> Make your reservations</h3>
-
-    <form  method= "get" action="thanks-reservation.html">
-               <div class="form">
-                    <label for="checkin">Check in</label>
-                    <input type="Date" id="checkin" name="check in"> 
-               </div>
-               <div class="form">
-                    <label for="checkout">Check out</label>
-                    <input type="Date" id="checkout" name="check out"> 
-               </div>
-                <div class="form-1">
-                        <label for="Nrooms">No of rooms</label>
-                        <input type="number" id="Nrooms" name="Nrooms"  required >
-                       
-                  </div>
-                  <div class="form-1">
-                        <label for="Nadults">Adults</label>
-                        <input type="number" id="Nadults" name="Nadults"  required >
-                       
-                  </div>
-                  <div class="form-1">
-                        <label for="Nchil">Children</label>
-                        <input type="number" id="Nchil" name="Nchil"  required >
-                       
-                  </div>
-                  <div id="form-2" >
-                        <input type="submit" value="Book Now" class="buttom">
-                      </div>
-        
-        </form>
-       
-    </div>
-     
-<section class="tempinf">
-
-    <div>
-<img class="temple"src="images/saltlaketemple-1.jpg" alt="image temple">
-    </div>
-    <div>
-<img class="temple" src="images/califtemple.jpg" alt="image temple">
-
-    </div>
-    <div>
-            <img class="temple" src="images/houstemple.jpg" alt="image temple">
-    </div>
-    <div>
-            <img class="temple" src="images/stgeorgetemple.jpg" alt="image temple">
-    </div>
-</section>
-<section class="ads">
-
-<div>
-<img class="secimg" src="images/templeweading-1.jpg" alt="image">
-<p> Celebrate Your Love At Temple Inn & Suites </p>
-</div>
-<div>
-<h4>Welcome To our Page</h4>
-<p> We are provide the best accomdations that your can ever ask for</p>
-</div>
-<div>
-<img class="secimg" src="images/youthtemple.jpg" alt="image">
-</div>
-
-
-</section>
+    <!--Top Page Section-->
+    <h2>Reservations Form</h2>
+                     
+                 <form class="reserpa" method= "get" action="thanksletter.html">
+                    
+                         
+                        <div class="form">
+                          
+                            <label for="fname">Full Name*</label>
+                            <input type="text" id="fname" name="fullname" pattern="[a-zA-Z ]{5,}" required >
+                         
+                        </div>
+                        <div class="form">
+                            <label for="emailaddress">Email Address</label>
+                            <input type="text" id="emailaddress" name="email address" placeholder="someone@yahoo.com">
+                         </div>
+                        
+                        <div class="form-1">
+                                
+                                <label for="pnumber">Phone Number*</label>
+                                <input type="tel" id="pnumber" name="phone" placeholder="1234567989" pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                                required>
+                        </div>
+                        <div class="form-1">
+                              <label for="Zipcode">Zip Code*</label>
+                              <input type="number" id="Zipcode" name="zipcode"  required >
+                             
+                        </div>
+                        
+                    
+                    <div class="form">
+                            <label for="checkin">Check in</label>
+                            <input type="Date" id="checkin" name="check in"> 
+                       </div>
+                       <div class="form">
+                            <label for="checkout">Check out</label>
+                            <input type="Date" id="checkout" name="check out"> 
+                       </div>
+                        <div class="form-1">
+                                <label for="Nrooms">No of rooms</label>
+                                <input type="number" id="Nrooms" name="Nrooms"  required >
+                               
+                          </div>
+                          <div class="form-1">
+                                <label for="Nadults">Adults</label>
+                                <input type="number" id="Nadults" name="Nadults"  required >
+                               
+                          </div>
+                          <div class="form-1">
+                                <label for="Nchil">Children</label>
+                                <input type="number" id="Nchil" name="Nchil"  required >
+                               
+                          </div>
+                     <div class="form">
+                          <div>
+                            <label for="textarea">Comments:</label>
+                          </div>
+                          <div>
+                          
+                            <textarea id="textarea" name="textarea" class="textar" placeholder="Please enter your comments here" ></textarea>
+                          </div>
+                        </div>
+                    
+                        <div id="butre" >
+                          <input type="submit" value="submit form" class="buttom">
+                        </div>
+                        
+                        </form>
+               
 
 </main>
-
-<footer>
+<!--Home page Information Section-->
+<aside>
     <div class="inform-1">
         <h4>Temple Inn & Suites</h4>
-        <p>30 N 1 st E<br>
-        Preston, ID 83263</p>
-        <p> 208-9865-9388</p>
-         <p>SunnyOrnot@gmail.com</p>
+        <p>4800 Montgomery Ln #300<br> 
+            Bethesda, MD 20814 <br>
+         Templename@ldsmail.com</p>
+        </div>
+        <div class="inform-2">
+            <h2>About the Company</h2>
+            <p>The Temple Inn & Suites is a hotel chain headquartered that builds and manages specialized hotel accommodations
+                 near temple locations of The Church of Jesus Christ of Latter-day Saints around the world.</p>
          <a href="https://www.facebook.com"><img src="images/facebook-128.png" alt="icon image"></a>
          <a href="https://www.twitter.com"> <img src="images/twitter1.png" alt="icon image"></a>
          <a href="https://www.instagram.com"> <img src="images/insta-1png.png" alt="icon image"></a>
          <a href="https://www.pinterest.com"><img src="images/pinterest-1.png" alt="icon image"></a>
     
         </div >
-        <div class="inform-2">
+        <div id="bookN" >
+            <ul>
+             <li><a href="reception.html">Book Now</a></li>
+              <li>  <a href="reception.html">Contac Us</a></li>
+               <li><a href="reception.html">Return home page</a></li>
+                </ul>
+              </div>   
+        </aside>
+        <footer>
+        <div class="inform-3">
                 <p id="info">&copy; 2019 All Rights Reserved  |  Temple Inn & Suites |<span id="currentdate"></span></p>
             </div> 
         </div>
+       
 
 </footer>
+<!--Script-->
 <script src="js/menubar.js"></script>
-
+<script src="js/currentDate.js"></script>
+<script src="js/windchill.js"></script>
+    
+    <script src="js/houstonwe.js"></script>
 </body>
-
-
-
-
-
 </html>
