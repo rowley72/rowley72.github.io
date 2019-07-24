@@ -32,9 +32,9 @@ document.getElementById('windchill').innerHTML = windchilFR;
 
 }
 
-/* event page*/
+/* Temple Closures*/
 
-var divsec = document.querySelectorAll('divs');
+var divsec = document.querySelector('div');
 var requestURL='https://rowley72.github.io/Final-project/directory.json';
 
 var request = new XMLHttpRequest();
@@ -48,13 +48,13 @@ var request = new XMLHttpRequest();
   
 }
 function datasche(jsonObj) {
-    var infoevent = jsonObj['temples'];
+    var infoevent = jsonObj["temples"];
     var infodiv= document.createElement('div');
     for (var n = 0; n < divsec.length; n++) {
       for (var i = 0; i < infoevent.length; i++) {
         var idName = infoevent[i].name.toLowerCase().replace(" ", "");
         if (idName === divsec[n].id) {
-          var mysection = document.createElement('divs');
+          var mydiv = document.createElement('div');
           var myH2 = document.createElement('h2');
           var myPara1 = document.createElement('p');
           var myPara2 = document.createElement('p');
@@ -81,10 +81,10 @@ function datasche(jsonObj) {
            infodiv.appendChild(myPara4);
            infodiv.appendChild(myPara5);
            infodiv.appendChild(myPara6);
-           mysection.appendChild(infodiv);
+           mydiv.appendChild(infodiv);
           
      
-           divsec[n].appendChild(mysection);  
+           divsec[n].appendChild(mydiv);  
         }
     }
 }

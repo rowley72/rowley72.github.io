@@ -119,7 +119,7 @@ function dataevent(jsonObj) {
            myImg.className = "homeimage1";
 
            infodiv.appendChild(myH2);
-          ;
+          
            infodiv.appendChild(myPara1);
            infodiv.appendChild(myPara2);
            infodiv.appendChild(myPara3);
