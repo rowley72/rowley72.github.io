@@ -1,9 +1,9 @@
 {
 "temples":[
 {
-    "name":"Houston",
+    "name":"houston",
     
-    "Date": 2019,
+    "date": 2019,
    
     
 "ClosuresDates" : [
@@ -13,44 +13,12 @@
 "Thursday, 28 November 2019",
 "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
 "Tuesday, 31 December 2019 (Limited Hours)"
-
-  ],
-  "ordschedule" : [
-     { "endowment":[
-        "Sunday and Monday- closed",
-        "Tuesday to Friday -8:00 a.m. to 8:00 p.m.-Walk-ins/Appointments",
-        "Wednesday- 8:00 p.m.-Spanish Session",
-        "Saturday- 6:00 p.m.- Mandarin Session"
-     ]
-
-
-
-  },
-  {
-      "Sealing":[
-        "Sunday and Monday- closed",
-        "Tuesday to Friday -8:00 a.m. to 9:30 p.m.- Walk-ins/Appointments",
-        "Saturday-7:00 a.m. to 8:30 p.m.-Walk-ins/Appointments"
-
-      ]
-  },
-  {
-    "Baptism":[
-      "Tuesday to Friday -8:00 a.m. to 9:00 p.m.- Walk-ins/Appointments and Family Priority Time" ,
-      "Saturday-7:00 a.m. to 12:00 p.m.-Walk-ins/Appointments and Family Priority Time"
-    ]
+]
+  
 },
-{"initiatory":[
-    "Tuesday to Friday -8:00 a.m. to 9:30 p.m.- Walk-ins" ,
-    "Saturday-7:00 a.m. to 8:30 p.m.-Walk-ins"
-  ]
-}
-
-  ]
-},
-{
-    "name":"St.George",
-    "Date": 2019,
+  {
+    "name":"st.george",
+    "date": 2019,
     
 "ClosuresDates" : [
     "Wednesday, 24 July 2019",
@@ -58,43 +26,12 @@
     "Monday, 9 September 2019 - Saturday, 21 September 2019",
     "Saturday, 5 October 2019",
     "Monday, 4 November 2019 - Friday, 4 November 2022"
-
-  ],
-  "ordschedule" : [
-    { "endowment":[
-       "Sunday and Monday- closed",
-       "Tuesday to Friday -7:20 a.m. to 8:00 p.m.-Walk-ins/Appointments",
-       "Saturday- 6:00 a.m. to 8:00 p.m.-Walk-ins/Appointment"
-    ]
-
-
-
- },
- {
-     "Sealing":[
-       "Sunday and Monday- closed",
-       "Tuesday to Saturday -7:20 a.m. to 8:40 p.m.- Walk-ins/Appointments"
-       
-
-     ]
- },
- {
-   "Baptism":[
-     "Tuesday to Friday -8:00 a.m. to 9:00 p.m.- Walk-ins/Appointments and Family Priority Time" ,
-     "Saturday-7:00 a.m. to 12:00 p.m.-Walk-ins/Appointments and Family Priority Time"
-   ]
-},
-{"initiatory":[
-   "Tuesday to Friday -8:00 a.m. to 9:30 p.m.- Walk-ins" ,
-   "Saturday-7:00 a.m. to 8:30 p.m.-Walk-ins"
- ]
-}
-
- ]
+]
+  
 },
 {
-    "name":"Oakland",
-    "Date": 2019,
+    "name":"oakland",
+    "date": 2019,
     
 "ClosuresDates" : [
     "Monday, 9 September 2019 - Monday, 23 September 2019",
@@ -108,8 +45,8 @@
   ]
 },
 {
-    "name":"Salt Lake City",
-    "Date": 2019,
+    "name":"salt Lake City",
+    "date": 2019,
     
 "ClosuresDates" : [
 "Wednesday, 24 July 2019",

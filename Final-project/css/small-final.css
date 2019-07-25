@@ -53,8 +53,11 @@ nav {
   }
   .menubar a:hover {	color: #000; 
     background-color: rgb(177, 189, 174); 
-    font-weight: 700;	}
-  
+    font-weight: 700;
+	}
+  .dropdown a:hover{
+      background-color: #46d2d2;
+  }
   
   li a:hover:not(.active) {
     background-color: rgb(201, 187, 172);
@@ -63,10 +66,10 @@ nav {
   .active {
     background-color:rgb(121, 104, 101);
   }
-  
+ 
   .responsive li { display: block; }
   ul li ul.dropdown{
-    min-width: 210px; /* Set width of the dropdown */
+    width: 100px;/* Set width of the dropdown */
     background:rgba(194, 69, 98, 0.5);
     display: none;
     position: absolute;
@@ -75,9 +78,16 @@ nav {
 }
 ul li:hover ul.dropdown{
     display: block;	/* Display the dropdown */
+    width: 136px;
+   
 }
 ul li ul.dropdown li{
     display: block;
+    
+}
+.dropdown a{
+    text-align: left;
+    color: white;
 }
 /*--------------------*/
 
@@ -89,10 +99,10 @@ ul li ul.dropdown li{
 }
 #h3{
     position: absolute;
-    top: 300px;
-    left: 500px;
+    top: 420px;
+    left: 600px;
     color: white;
-    font-family: inherit;
+    font-family: fantasy;
     font-size: 2rem;
 }
 .book-fr{
@@ -102,8 +112,8 @@ ul li ul.dropdown li{
     width: 30%;
     padding: 10px;
     position: absolute;
-    left: 400px;
-    top: 400px;
+    left: 600px;
+    top: 500px;
 }
 .form{
    
@@ -172,6 +182,16 @@ form .form input, form .form select{
 }
 .trafor{
     position: absolute;
+}
+#welc{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    color: white;
+    font-family: fantasy;
+    font-size: 2rem;
+    font-weight: bold;
+
 }
 .tempinf{
     display: flex;
@@ -248,6 +268,69 @@ margin:10px;
     text-align: center;
 }
 /*---------TemplePage-------*/
+
+.left-box {
+  
+    width: 30%;
+   
+  
+    display:flex;
+    flex-direction:column;
+    padding:30px;
+    border:1px solid rgb(158, 182, 169);
+    justify-content: center;
+    align-items: center; 
+    margin-left:10%;
+   
+    
+  }
+  
+  
+    
+  .right-box {
+    
+    width: 30%;
+    display:flex;
+    flex-direction:column;
+    padding:30px;
+    border:1px solid rgb(169, 216, 204);
+    justify-content: center;
+    align-items: center; 
+    margin-right:10%;
+   
+    
+    
+    
+    
+    
+  }
+  .tour1, .tour2 {
+  
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center; 
+  padding: 10px;
+  justify-content: space-between; 
+  
+    
+  }
+  
+  
+  .right-box,.left-box {
+    padding: 5px;
+    color: black;
+  
+    font-size:1em;
+    line-height:1.5em;
+    text-align:center;
+    }
+  
+  
+  
+  
+  
+
+/*---------Temple/Temple pages-----*/
 .tem-info-1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
@@ -406,3 +489,44 @@ textarea{
         flex: 1 0 15em;
         padding: 10px;
     }
+    .img1, .img2 {
+        width: 450px;
+          height: 350px;
+           border-radius: 5px;
+         box-shadow: 5px 5px 5px black;
+        }
+.wedd-pa{
+    background-image: url(../images/bride1.jpg);
+    min-height: 380px;
+
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    position: relative;
+}
+
+#templesche{
+    border-collapse: collapse;
+    font-family:'Times New Roman', Times, serif;
+    width: 100%;
+
+}
+#templesche td, #templesche th{
+    border: 1px solid black;
+    padding: 8px;
+
+}
+#templesche tr:nth-child(even){background-color: #f2f2f2;}
+
+#templesche tr:hover {background-color: #ddd;}
+
+#templesche th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}

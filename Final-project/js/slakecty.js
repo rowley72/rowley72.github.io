@@ -1,5 +1,5 @@
 var weatherRequest = new XMLHttpRequest();
-var apiURLstring='https://api.openweathermap.org/data/2.5/weather?id=4692521&units=imperial&APPID=49bba8f65e06218978ae5717239ff8c0';
+var apiURLstring='https://api.openweathermap.org/data/2.5/weather?id=5780993&units=imperial&APPID=49bba8f65e06218978ae5717239ff8c0';
 weatherRequest.open('Get',apiURLstring,true);
 weatherRequest.send();
 
