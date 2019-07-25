@@ -30,7 +30,7 @@
            
             <ul class="menubar">
                  <li id="dismenu"> <a href="#" onclick="toggleMenu()"> &#9776;Menu</a></li>
-                 <li> <a class="active" href="index-final.html">Home</a></li>
+                 <li> <a  href="index-final.html">Home</a></li>
                  <li><a href="temple-page.html">Temples </a>
                         <ul class="dropdown">
                             <li><a href="houston-temple.html">Houston </a></li>
@@ -44,7 +44,7 @@
                  <li> <a href="services-page.html">Service</a>
                     <ul class="dropdown">
                             <li><a href="reception.html">Reception </a></li>
-                            <li><a href="msion-page.html"> Full-Time Missionary</a></li>
+                            <li><a class="active" href="msion-page.html"> Full-Time Missionary</a></li>
                     </ul>
                     </li>
                      <li> <a href="aboutUs-page.html">About Us</a></li>
@@ -53,109 +53,50 @@
             
             
 <main>
-    <div>
-            <figure>
-                    <img class="image-hero" src="images/temple2-3.jpg" alt="temple image" sizes="100vw"
-                        srcset="images/temple2-3.jpg 600w,images/temple2-3.jpg 800w">
-                    <figcaption>
-                        Salt Lake City Temple
-                    </figcaption>
     
-                 </figure>
-            <h3> Make your reservations</h3>
-
-    <form  method= "get" action="thanksletter.html">
-               <div class="form">
-                    <label for="checkin">Check in</label>
-                    <input type="Date" id="checkin" name="check in"> 
-               </div>
-               <div class="form">
-                    <label for="checkout">Check out</label>
-                    <input type="Date" id="checkout" name="check out"> 
-               </div>
-                <div class="form-1">
-                        <label for="Nrooms">No of rooms</label>
-                        <input type="number" id="Nrooms" name="Nrooms"  required >
-                       
-                  </div>
-                  <div class="form-1">
-                        <label for="Nadults">Adults</label>
-                        <input type="number" id="Nadults" name="Nadults"  required >
-                       
-                  </div>
-                  <div class="form-1">
-                        <label for="Nchil">Children</label>
-                        <input type="number" id="Nchil" name="Nchil"  required >
-                       
-                  </div>
-                  <div id="form-2" >
-                        <input type="submit" value="Book Now" class="buttom">
-                      </div>
         
-        </form>
-       
-    </div>
-     
-<section class="tempinf">
-
-    <div>
-<img class="temple"src="images/saltlaketemple-1.jpg" alt="image temple">
-    </div>
-    <div>
-<img class="temple" src="images/califtemple.jpg" alt="image temple">
-
-    </div>
-    <div>
-            <img class="temple" src="images/houstemple.jpg" alt="image temple">
-    </div>
-    <div>
-            <img class="temple" src="images/stgeorgetemple.jpg" alt="image temple">
-    </div>
-</section>
-<section class="ads">
-
-<div>
-<img class="secimg" src="images/templeweading-1.jpg" alt="image">
-<p> Celebrate Your Love At Temple Inn & Suites </p>
-</div>
-<div>
-<h4>Welcome To our Page</h4>
-<p> We are provide the best accomdations that your can ever ask for</p>
-</div>
-<div>
-<img class="secimg" src="images/youthtemple.jpg" alt="image">
-</div>
-
-
-</section>
 
 </main>
 
-<footer>
-    <div class="inform-1">
-        <h4>Temple Inn & Suites</h4>
-        <p>30 N 1 st E<br>
-        Preston, ID 83263</p>
-        <p> 208-9865-9388</p>
-         <p>SunnyOrnot@gmail.com</p>
-         <a href="https://www.facebook.com"><img src="images/facebook-128.png" alt="icon image"></a>
-         <a href="https://www.twitter.com"> <img src="images/twitter1.png" alt="icon image"></a>
-         <a href="https://www.instagram.com"> <img src="images/insta-1png.png" alt="icon image"></a>
-         <a href="https://www.pinterest.com"><img src="images/pinterest-1.png" alt="icon image"></a>
+<aside>
+        <div class="inform-1">
+            <h4>Temple Inn & Suites</h4>
+            <p>4800 Montgomery Ln #300<br> 
+                Bethesda, MD 20814 <br>
+             Templename@ldsmail.com</p>
+            </div>
+            <div class="inform-2">
+                <h2>About the Company</h2>
+                <p>The Temple Inn & Suites is a hotel chain headquartered that builds and manages specialized hotel accommodations
+                     near temple locations of The Church of Jesus Christ of Latter-day Saints around the world.</p>
+             <a href="https://www.facebook.com"><img src="images/facebook-128.png" alt="icon image"></a>
+             <a href="https://www.twitter.com"> <img src="images/twitter1.png" alt="icon image"></a>
+             <a href="https://www.instagram.com"> <img src="images/insta-1png.png" alt="icon image"></a>
+             <a href="https://www.pinterest.com"><img src="images/pinterest-1.png" alt="icon image"></a>
+        
+            </div >
+            <div id="bookN" >
+                <ul>
+                 <li><a href="reception.html">Book Now</a></li>
+                  <li>  <a href="reception.html">Contac Us</a></li>
+                   <li><a href="reception.html">Return home page</a></li>
+                    </ul>
+                  </div>   
+            </aside>
+            <footer>
+            <div class="inform-3">
+                    <p id="info">&copy; 2019 All Rights Reserved  |  Temple Inn & Suites |<span id="currentdate"></span></p>
+                </div> 
+            </div>
+           
     
-        </div >
-        <div class="inform-2">
-                <p id="info">&copy; 2019 All Rights Reserved  |  Temple Inn & Suites |<span id="currentdate"></span></p>
-            </div> 
-        </div>
-
-</footer>
-<script src="js/menubar.js"></script>
-
-</body>
-
-
-
-
-
-</html>
+    </footer>
+    <!--Script-->
+    <script src="js/menubar.js"></script>
+    <script src="js/currentDate.js"></script>
+    <script src="js/windchill.js"></script>
+        
+        <script src="js/houstonwe.js"></script>
+        <script src="js/schedu-data.js"></script>
+    </body>
+    </html>

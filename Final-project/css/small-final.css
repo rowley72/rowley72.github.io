@@ -87,7 +87,7 @@ ul li ul.dropdown li{
     width:10%;
     height: 80px;;
 }
-h3{
+#h3{
     position: absolute;
     top: 300px;
     left: 500px;
@@ -95,7 +95,7 @@ h3{
     font-family: inherit;
     font-size: 2rem;
 }
-.ca{
+.book-fr{
     background-color: rgb(12, 11, 11,.5);
     display: flex;
     flex-wrap: wrap;
@@ -179,12 +179,11 @@ form .form input, form .form select{
 }
 .tempinf > div {
     
-    color: white;
+    color: black;
     width: 25%;
     margin: 10px;
     text-align: center;
-    line-height: 75px;
-    font-size: 30px;
+    font-size: 1rem;
   }
 .temple{
     width:100%;
@@ -197,12 +196,11 @@ form .form input, form .form select{
 }
 .ads > div {
     
-    color: white;
+    color:black;
     width: 25%;
     margin: 10px;
     text-align: center;
-    line-height: 75px;
-    font-size: 30px;
+    
   }
 .secimg{
     width: 100%;
@@ -244,7 +242,7 @@ margin:10px;
     width:30%;
 }
 .inform-3{
-    background-color: #681f28;
+    background-color: #b32d00;
     padding:10px;
     margin: 10px;
     text-align: center;
@@ -384,3 +382,27 @@ textarea{
   #butre{
       width:100%;
   }
+  /*-----------------About Us Page----------------*/
+  .contus-form{
+    background-color: rgba(221, 180, 180, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    padding: 10px;
+    position: absolute;
+  }
+
+ /*-----------------Service/reception Page----------------*/
+  .sec1, .sec2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center; 
+    padding: 10px;
+    
+    }
+    .leftcol, .rightcol{
+        max-width:48%;
+        flex: 1 0 15em;
+        padding: 10px;
+    }
