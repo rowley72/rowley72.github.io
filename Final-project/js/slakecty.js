@@ -52,7 +52,7 @@ function datasche(jsonObj) {
     var infodiv= document.createElement('div');
     for (var n = 0; n < divsec.length; n++) {
       for (var i = 0; i < infoevent.length; i++) {
-        var idName = infoevent[i].name.toLowerCase().replace(//g,"");
+        var idName = infoevent[i].name.toLowerCase().replace(/ /g,"");
         if (idName === divsec[n].id) {
           var mydiv = document.createElement('div');
           var myH2 = document.createElement('h2');

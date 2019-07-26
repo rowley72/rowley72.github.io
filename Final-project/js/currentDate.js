@@ -25,5 +25,5 @@ month[9] = "October";
 month[10] = "November";
 month[11] = "December";
 var nameMonth = month[d.getMonth()];
-document.getElementById("currentdate").innerHTML= nameDay+", "+nameMonth+" "+ d.getDay() + " "+d.getFullYear();
+document.getElementById("currentdate").innerHTML= nameDay+", "+nameMonth+" "+ d.getDate() + " "+d.getFullYear();
 
