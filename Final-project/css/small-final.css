@@ -99,11 +99,11 @@ ul li ul.dropdown li{
 }
 #h3{
     position: absolute;
-    top: 420px;
-    left: 600px;
+    top: 530px;
+    left: 720px;
     color: white;
-    font-family: fantasy;
-    font-size: 2rem;
+    font-family: serif;
+    font-size: 1.8rem;
 }
 .book-fr{
     background-color: rgb(12, 11, 11,.5);
@@ -112,8 +112,8 @@ ul li ul.dropdown li{
     width: 30%;
     padding: 10px;
     position: absolute;
-    left: 600px;
-    top: 500px;
+    left: 700px;
+    top: 600px;
 }
 .form{
    
@@ -185,12 +185,22 @@ form .form input, form .form select{
 }
 #welc{
     position: absolute;
-    top: 250px;
+    top: 270px;
     left: 100px;
     color: white;
     font-family: fantasy;
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: bold;
+
+}
+#welc-1{
+    position: absolute;
+    top: 700px;
+    left: 100px;
+    color: white;
+    font-family: fantasy;
+    font-size: 1.4rem;
+   
 
 }
 .tempinf{
@@ -208,6 +218,7 @@ form .form input, form .form select{
 .temple{
     width:100%;
 }
+/*---------------Home page--------*/
 .ads{
     display: flex;
     flex-direction: row;
@@ -220,10 +231,22 @@ form .form input, form .form select{
     width: 25%;
     margin: 10px;
     text-align: center;
+    box-shadow: 5px 10px 18px darkblue;
     
   }
+
 .secimg{
     width: 100%;
+}
+.ads img{
+
+    width: 100%;
+    height: 200px;
+}
+#h6{
+    font-family:fantasy;
+    font-size: 1.5rem;
+    font-style: italic; 
 }
 /*-------Information Section-----*/
 
@@ -595,13 +618,25 @@ padding: 20px;
     text-align: left;
 }
  /*-----------------Service/reception Page----------------*/
+ #main-re{
+     display: block;
+    padding: 10px;
+    margin: 20px;
+ }
   .sec1, .sec2 {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center; 
     padding: 10px;
+    background-color: burlywood;
     
+    }
+    #wedp{
+    font-size: 2em;
+    margin: 0.67em 0;
+    color: rebeccapurple;
+    line-height: 2.8rem;
     }
     .leftcol, .rightcol{
         max-width:48%;
