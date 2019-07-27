@@ -465,9 +465,48 @@ textarea{
   #butre{
       width:100%;
   }
-  /*-----------------About Us Page----------------*/
-  
+  /*-----------------Missionary Page----------------*/
+
+.img-misio{
+    display: grid;
+    grid-template-columns: 1fr .5fr ;
+    grid-auto-rows: minmax(100px,auto);
+    grid-gap: 1em;
+    justify-items: stretch;
+    align-items: stretch
+
+}
+.img-misio > div{
+background-color: #46d2d2;
+padding: 1em;
+text-align: center;
+padding: 20px;
+
+}
+.imgmis{
+    width: 200px;
     
+}
+#imgmis-1{
+    width:50%;
+}
+
+.form-mis{
+    display:flex;
+    flex-direction: row;
+}
+.form-imgmi{
+    width: 50%;
+    margin: 20px;
+    text-align: center;
+    line-height: 80px;
+    padding: 20px;
+}
+.form-mis .contus-fo{
+    width:50%;
+    
+
+}
 
  /*-----------------Service/reception Page----------------*/
   .sec1, .sec2 {
@@ -524,7 +563,7 @@ textarea{
   background-color: #4CAF50;
   color: white;
 }
-/*---------About Us Page----------*/
+/*---------Contac Us Page----------*/
 
 .tem-info-us{
     display:flex;
@@ -640,7 +679,7 @@ textarea{
 }
 #letter-1 h2, h3{
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.4rem;
 
 }
 #letter-1{
