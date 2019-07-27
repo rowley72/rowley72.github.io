@@ -60,54 +60,81 @@
                  <form class="reserpa" method= "get" action="thanksme.html">
                     
                          
-                        <div class="form">
+                        <div class="r-form">
                           
                             <label for="fname">Full Name*</label>
                             <input type="text" id="fname" name="fullname" pattern="[a-zA-Z ]{5,}" required >
                          
                         </div>
-                        <div class="form">
+                        <div class="r-form">
+                          
+                                <label for="fstate">Home State</label>
+                                <input type="text" id="fstate" name="fullname" pattern="[a-zA-Z ]{5,}" >
+                             
+                            </div>
+                            
+                                
+                        <div class="r-form">
                             <label for="emailaddress">Email Address</label>
                             <input type="text" id="emailaddress" name="email address" placeholder="someone@yahoo.com">
                          </div>
                         
-                        <div class="form-1">
+                        <div class="r-form-1">
                                 
                                 <label for="pnumber">Phone Number*</label>
                                 <input type="tel" id="pnumber" name="phone" placeholder="1234567989" pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
                                 required>
                         </div>
-                        <div class="form-1">
-                              <label for="Zipcode">Zip Code*</label>
-                              <input type="number" id="Zipcode" name="zipcode"  required >
-                             
-                        </div>
+                        <div class="r-form-1">
+                              
+                                <label for="loctype">Destination</label>
+                                  <input list="loctypes"  name="loctype" id="loctype">
+                              <datalist id="loctypes">
+                                  <option value="Houston">
+                                   <option value="Salt Lake City">
+                                   <option value="St.George Utah">
+                                        <option value="Oakland California">
+                                  </datalist>
+                              
+                            </div>
+                            
                         
                     
-                    <div class="form">
+                    <div class="r-form">
                             <label for="checkin">Check in</label>
                             <input type="Date" id="checkin" name="check in"> 
                        </div>
-                       <div class="form">
+                       <div class="r-form">
                             <label for="checkout">Check out</label>
                             <input type="Date" id="checkout" name="check out"> 
                        </div>
-                        <div class="form-1">
+                       <div class="r-form-1">
+                              
+                            <label for="stormtype">Room Type</label>
+                              <input list="roomtypes"  name="roomtype" id="roomtype">
+                          <datalist id="roomtypes">
+                              <option value="Single Room">
+                               <option value="Family Room">
+                               <option value="Small Suite">
+                              </datalist>
+                          
+                        </div>
+                        <div class="r-form-1">
                                 <label for="Nrooms">No of rooms</label>
                                 <input type="number" id="Nrooms" name="Nrooms"  required >
                                
                           </div>
-                          <div class="form-1">
+                          <div class="r-form-1">
                                 <label for="Nadults">Adults</label>
                                 <input type="number" id="Nadults" name="Nadults"  required >
                                
                           </div>
-                          <div class="form-1">
+                          <div class="r-form-1">
                                 <label for="Nchil">Children</label>
                                 <input type="number" id="Nchil" name="Nchil"  required >
                                
                           </div>
-                     <div class="form">
+                     <div class="r-form">
                           <div>
                             <label for="textarea">Comments:</label>
                           </div>
@@ -123,10 +150,29 @@
                         
                         </form>
                
-    <section>
-        <img src="images/hotelroom1.jpg" alt="room image">
-        <img src="images/hotelroom21.jpg" alt="room image">
-        <img src="images/familyroom42.jpg" alt="room image">
+    <section class="img-reser">
+        
+        <div>
+         <img class="rese-img" src="images/hotelroom21.jpg" alt="room image">
+        <h4>Single Room,1 king Bed</h4>
+        <p>Sleeps 2</p>
+        <p>Free WiFi</p>
+        <p><strong>$70/per night</strong></p>
+        </div>
+        <div>
+       <img class="rese-img"src="images/hotelroom1.jpg" alt="room image">
+        <h4>Family Room,2 Double Beds</h4>
+        <p>Sleeps 4</p>
+        <p>Free WiFi</p>
+        <p><strong>$100/per night</strong></p>
+        </div>
+        <div>
+        <img class="rese-img" src="images/familyroom42.jpg" alt="room image">
+        <h4>Suite,1 Master Bedroom,1 Guest Bedroom</h4>
+        <p>Sleeps 8</p>
+        <p>Free WiFi</p>
+        <p><strong>$250/per week</strong></p>
+        </div>
         
     </section>
 
