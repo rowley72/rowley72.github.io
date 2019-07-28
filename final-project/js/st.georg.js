@@ -66,7 +66,7 @@ function datasche(jsonObj) {
          
           
 
-           myH2.textContent ="Templo Closures "+infoevent[i].name;
+           myH2.textContent ="Temple Closures "+infoevent[i].name;
            myH3.textContent =infoevent[i].date;
            myPara1.textContent = infoevent[i].ClosuresDates[0];
            myPara2.textContent = infoevent[i].ClosuresDates[1];
