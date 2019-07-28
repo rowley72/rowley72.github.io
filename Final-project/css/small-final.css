@@ -369,17 +369,15 @@ margin:10px;
 
 }
 .temple-infor{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-auto-rows: minmax(100px, auto);
-    grid-gap: 4em;
-    background-color: rgb(201, 186, 181);
-    justify-items: stretch;
-    align-items: stretch;
-    padding: 30px;
-    margin: 20px;}
+
+    display: flex;
+    flex-direction: row;
+}
 .temple-infor > div{
     border: solid black 2px;
+    border: solid black 2px;
+    margin: 10px;
+    width: 30%;
 }
 .temple-infor-2{
     display: grid;
@@ -810,4 +808,30 @@ padding: 20px;
 #letter-1{
     display: block;
     
+}
+#hous-img{
+    width: 90%;
+    padding: 10px;
+}
+.schetemp{
+    display: flex;
+    flex-direction: row;
+    border: solid black 2px;
+    margin: 20px;
+    background-color: cornsilk;
+}
+.left-sche{
+    width:50%;
+   padding: 10px;
+}
+.right-sche{
+    width: 50%;
+    padding: 10px;
+
+}
+#houston{
+    padding:10px;
+}
+#houston h3{
+    text-align: left;
 }
