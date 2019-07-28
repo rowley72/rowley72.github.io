@@ -13,6 +13,41 @@
     .image-te{
         width: 70%;
     }
+    /*------footer Page------*/
+    aside{
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    .inform-1{
+        width: 20%;
+    }
+    .inform-2{
+        width:30%;
+    }
+    .bloque-2 {
+        display: flex;
+        flex-direction: row;
+    }
+    #sidetex {
+        width: 70%;
+    }
+    .cont-us-p {
+        width: 50%;
+    }
+    .cont-us-p p {
+        font-size: 1.3rem;
+        font-family: sans-serif;
+    }
+    .aboUs{
+    width: 70%;
+    }
+    .tempinf{
+        display: flex;
+        flex-direction: row;
+    }
+    .tempinf > div{
+        width:25%;
+    }
     /*------Temple Page------*/
     .templimg-p{
         width: 100%;
@@ -20,5 +55,69 @@
     .box1-temple{
         grid-column: 1/3;
         grid-row: 1/3;
+    }
+    /*------Contact Page------*/
+    .tem-info-us{
+        display: flex;
+        flex-direction: row;
+
+    }
+    /*-----home page------*/
+    #welc {
+        position: absolute;
+        top: 270px;
+        left: 100px;
+        color: white;
+        font-family: fantasy;
+        font-size: 2.2rem;
+        font-weight: bold;
+    }
+    #welc-1 {
+        position: absolute;
+        top: 500px;
+        left: 80px;
+        color: white;
+        font-family: fantasy;
+        font-size: 1.7rem;
+}
+.book-fr {
+    background-color: rgb(12, 11, 11,.5);
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    padding: 10px;
+    position: absolute;
+    left: 700px;
+    top: 600px;
+}
+#h3 {
+    position: absolute;
+    top: 530px;
+    left: 720px;
+    color: white;
+    font-family: serif;
+    font-size: 1.8rem;
+}
+.ads{
+    display: flex;
+    flex-direction: row;
+    
+}
+.ads > div {
+    
+width: 25%;
+   
+    
+  }
+  .right-box,.left-box {
+    
+    line-height:1.5em;
+    text-align:center;
+    width: 30%;
+    margin: auto;
+    }
+    .tour1, .tour2{
+        display: flex;
+        flex-direction: row;
     }
 }
