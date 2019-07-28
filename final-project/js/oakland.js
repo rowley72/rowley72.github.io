@@ -35,7 +35,7 @@ document.getElementById('windchill').innerHTML = windchilFR;
 /* Temple Closures*/
 
 var divsec = document.querySelectorAll('div');
-var requestURL='https://rowley72.github.io/Final-project/directory.json';
+var requestURL='https://rowley72.github.io/final-project/directory.json';
 
 var request = new XMLHttpRequest();
     request.open('GET', requestURL);
