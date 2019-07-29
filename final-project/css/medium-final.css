@@ -1,0 +1,16 @@
+/* medium and up views */
+@media only screen and (min-width:600px) {
+
+
+.tempinf {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+.tempinf > div {
+    width: 40%;
+}
+.ads img {
+    width: 90%;}
+}
