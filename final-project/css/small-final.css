@@ -15,6 +15,21 @@ h2{
     text-align: center;
     font-weight: bold;
 }
+.hero{
+    background-image: url(../images/temple2-3.jpg);
+    min-height: 380px;
+ background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: auto;
+    width: 90%;
+}
 /*--------Navigation Section-------*/
 nav {	
     justify-content: space-around;
@@ -24,6 +39,7 @@ nav {
     display: flex;
     flex-direction: row;
     flex-flow: nowrap;
+   padding: 5px;
 }
   
   .menubar { 
@@ -49,11 +65,12 @@ nav {
     text-decoration: none;
     width: 150px;
   }
-  .menubar a:hover {	color: #000; 
-    background-color: rgb(177, 189, 174); 
-    font-weight: 700;
+  .menubar a:hover {	
+      color: #000; 
+    background-color: rgba(248, 237, 238, 0.5); 
+   
 	}
-  .dropdown a:hover{
+  .dropdown a:hover {
       background-color: #46d2d2;
   }
   
@@ -84,9 +101,12 @@ ul li ul.dropdown li{
     
 }
 .dropdown a{
-    text-align: left;
-    color: white;
-}
+    text-align: right;
+    color: white;	
+     text-decoration: none;
+     width: 100px;
+      }
+
 /*--------------------*/
 
 #logo-img{
@@ -184,25 +204,26 @@ form .form input, form .form select{
     position: absolute;
 }
 #welc{
-    position: absolute;
-    top: 190px;
-    left: 60px;
     color: white;
     font-family: fantasy;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     font-weight: bold;
+    
+    padding: 40px;
 
 }
 #welc-1{
 
-        position: absolute;
-        top: 300px;
-        left: 80px;
         color: white;
         font-family: fantasy;
-        font-size: .7rem;
+        font-size: 1rem;
+        padding:10px;
+
    
 
+}
+#bookN{
+    text-align: center;
 }
 .tempinf{
     display: flex;
@@ -278,13 +299,15 @@ margin:10px;
     text-align: center;
     color: white;
     width: 100%;
+    line-height: 1.5rem;
   
 }
 .inform-2{
-    font-family: fantasy;
+    font-family:fantasy;
     text-align: center;
     color: white;
     width:100%;
+    line-height: 1.5rem;
 }
 .inform-3{
     background-color: #b32d00;
@@ -358,7 +381,7 @@ margin:10px;
 /*---------Temple/Temple pages-----*/
 .tem-info-1{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr  ;
     grid-auto-rows: minmax(100px, auto);
     grid-gap: 1em;
     background-color:#46d2d2;
@@ -395,11 +418,11 @@ margin:10px;
 }
 .summary {
     position: absolute;
-    top: 220px;
-    left: 120px;
+    top: 480px;
+    left: 70px;
     margin: 0;
-    /* background-color: rgb(162, 203, 223,.5); */
-    /* border: 1px solid black; */
+    background-color: rgb(162, 203, 223);
+    border: 1px solid black;
     padding: .4rem;
    
 
@@ -419,6 +442,16 @@ margin:10px;
     color:white;
     
 } 
+.box1-temple{
+    margin:auto;
+}
+.box2-temple{
+    width: 100%;
+}
+.box3-temple{
+    width:100%;
+}
+
 /*---------reservations Page-------*/
  .reserpa {
     
