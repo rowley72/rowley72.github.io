@@ -92,8 +92,8 @@
 }
 #h3 {
     position: absolute;
-    top: 340px;
-    left: 690px;
+    top: 3250px;
+    left: 70px;
     color: white;
     font-family: serif;
     font-size: 1.5rem;
@@ -130,4 +130,28 @@ width: 25%;
         position: absolute;
         top: 220px;
     }
+    .schetemp {
+        display: flex;
+        flex-direction: row;
+    }
+    .right-sche{
+        width:50%;
+    }
+    .temple-infor > div {
+        border: solid black 2px;
+        border: solid black 2px;
+        margin: 10px;
+         width: 30%
+    }
+    .temple-infor{
+        display:flex;
+        flex-direction: row;
+       
+
+    }
+    .temple-infor-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
 }

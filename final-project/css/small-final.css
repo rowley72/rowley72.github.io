@@ -394,17 +394,17 @@ margin:10px;
 .temple-infor{
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 .temple-infor > div{
     border: solid black 2px;
     border: solid black 2px;
     margin: 10px;
-    width: 30%;
+    
 }
 .temple-infor-2{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr ;
     grid-auto-rows: minmax(100px, auto);
     grid-gap: 4em;
     background-color: rgb(201, 186, 181);
@@ -413,13 +413,17 @@ margin:10px;
     padding: 30px;
     margin: 20px;
 }
+.temple-infor-2 p{
+    text-align: center;
+}
 .schetemp{
     border: 2px solid black;
+    
 }
 .summary {
     position: absolute;
-    top: 480px;
-    left: 70px;
+    top: 340px;
+    left: 40px;
     margin: 0;
     background-color: rgb(162, 203, 223);
     border: 1px solid black;
@@ -852,13 +856,15 @@ padding: 20px;
     border: solid black 2px;
     margin: 20px;
     background-color: cornsilk;
+    display:flex;
+    flex-direction: column;
 }
 .left-sche{
-    width:50%;
+    width:100%;
    padding: 10px;
 }
 .right-sche{
-    width: 50%;
+    width: 100%;
     padding: 10px;
 
 }
