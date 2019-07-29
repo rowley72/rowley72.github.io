@@ -873,3 +873,7 @@ padding: 20px;
     text-align: center;
     font-size: 1.4rem;
 }
+iframe{
+    width:300px;
+    height:300px
+}
