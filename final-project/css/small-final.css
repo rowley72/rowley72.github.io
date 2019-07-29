@@ -7,8 +7,6 @@ body{
     flex-direction: row;
     justify-content: left;
     
-
-
 }
 h2{
     font-family: fantasy;
@@ -18,7 +16,7 @@ h2{
 .hero{
     background-image: url(../images/temple2-3.jpg);
     min-height: 380px;
- background-position: center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -70,10 +68,6 @@ nav {
     background-color: rgba(248, 237, 238, 0.5); 
    
 	}
-  .dropdown a:hover {
-      background-color: #46d2d2;
-  }
-  
   li a:hover:not(.active) {
     background-color: rgb(201, 187, 172);
   }
@@ -85,7 +79,7 @@ nav {
   .responsive li { display: block; }
   ul li ul.dropdown{
     width: 100px;/* Set width of the dropdown */
-    background:rgba(194, 69, 98, 0.5);
+    background:rgba(194, 69, 98);
     display: none;
     position: absolute;
     z-index: 1;
@@ -101,7 +95,7 @@ ul li ul.dropdown li{
     
 }
 .dropdown a{
-    text-align: right;
+    text-align:center;
     color: white;	
      text-decoration: none;
      width: 100px;
@@ -874,4 +868,8 @@ padding: 20px;
 }
 #houston h3{
     text-align: left;
+}
+#respa{
+    text-align: center;
+    font-size: 1.4rem;
 }
