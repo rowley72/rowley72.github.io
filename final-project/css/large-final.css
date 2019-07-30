@@ -109,8 +109,9 @@
 .ads > div {
     
 width: 25%;
-   
-    
+}
+.ads p{
+font-size: 1.5rem;
 }
 .right-box,.left-box {
 line-height:1.5em;
@@ -208,6 +209,8 @@ margin: auto;
     text-align: center;
 }
 h5{
-    text-align: left;
+    text-align: left;}
+.box3 p{
+    font-size: 1.5rem;
 }
 }
