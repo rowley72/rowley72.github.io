@@ -92,8 +92,8 @@
 }
 #h3 {
     position: absolute;
-    top: 3250px;
-    left: 70px;
+    top: 347px;
+    left: 700px;
     color: white;
     font-family: serif;
     font-size: 1.5rem;
@@ -111,92 +111,91 @@
 width: 25%;
    
     
-  }
-  .right-box,.left-box {
-    
-    line-height:1.5em;
-    text-align:center;
-    width: 30%;
-    margin: auto;
+}
+.right-box,.left-box {
+line-height:1.5em;
+text-align:center;
+ width: 30%;
+margin: auto;
+}
+.tour1, .tour2{
+ display: flex;
+ flex-direction: row;
     }
-    .tour1, .tour2{
-        display: flex;
-        flex-direction: row;
-    }
-    .box2-temple{
+.box2-temple{
         width: 100%;
-    }
-    .box3-temple{
+ }
+.box3-temple{
         width:100%;
+}
+.summary {
+  position: absolute;
+ top: 220px;
+}
+.schetemp {
+    display: flex;
+    flex-direction: row;
     }
-    .summary {
-        position: absolute;
-        top: 220px;
-    }
-    .schetemp {
-        display: flex;
-        flex-direction: row;
-    }
-    .right-sche{
+.right-sche{
         width:50%;
     }
-    .temple-infor > div {
+ .temple-infor > div {
         border: solid black 2px;
         border: solid black 2px;
         margin: 10px;
          width: 30%
     }
-    .temple-infor{
-        display:flex;
-        flex-direction: row;
+ .temple-infor{
+    display:flex;
+    flex-direction: row;
        
 
     }
-    .temple-infor-2 {
+.temple-infor-2 {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    .reserpa {
+.reserpa {
         display: flex;
          flex-direction: row;
     }
-    .r-form{
+ .r-form{
         width:30%;
     }
-    .r-form-1{
+.r-form-1{
         width:20%;
     }
-    .img-reser{
+.img-reser{
         display: flex;
         flex-direction: row;
     }
-    .img-reser > div{
+.img-reser > div{
         width:25%;}
-    .ser-p {
+.ser-p {
     display: flex;
     flex-direction: row;}
-    .ser-p-1 {
+.ser-p-1 {
      width: 50%;} 
-    .ser-p-2 {
+.ser-p-2 {
      width: 40%;} 
 
-     .sec1, .sec2 {
+ .sec1, .sec2 {
         display: flex;
         flex-flow: row wrap; 
     }
-     .leftcol, .rightcol{
+.leftcol, .rightcol{
          max-width: 48%;
         flex: 1 0 15em;}
-        .img-misio{
-            display: grid;
-            grid-template-columns: 1fr .5fr ;}
-            .imgmis{
-                width: 60%;
+ .img-misio{
+    display: grid;
+    grid-template-columns: 1fr .5fr ;}
+ .imgmis{
+ width: 60%;
                 
-            }
-            .img-misio img{
-                width:60%;
-            }
+}
+.img-misio img{
+     width:60%;
+ }
 
 .form-mis{
     display:flex;
